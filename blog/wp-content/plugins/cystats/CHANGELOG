@@ -1,0 +1,499 @@
+23.10.2008
+0.9.8
+Reimplemented subpages for further statistics
+Added Chrome browser USER_AGENT
+Added Iron browser USER_AGENT
+Added Ixquick.com to searchword parser
+Bugfix: Percentage calculation
+Bugfix: cystats_firstPost() now has $shomode=TRUE default
+Bugfix: cystats_firstPostDays() now has $shomode=TRUE default
+Bugfix: User online count showing false values
+Bugfix: Fixed error messages while using CyStats with Coppermine Integrating Plugin
+Removed cystats_countPages() from template tags
+Removed cystats_countUsers() from template tags
+Removed cystats_countLinks() from template tags
+Removed cystats_getUsersOnline() from template tags
+Removed cystats_getClientTypesOnline() from template tags
+Removed cystats_getMostCommented() from template tags
+
+24.08.2008
+0.9.7
+Bugfix: Multiple database entries if no pageID delivered from WordPress
+Implemented Database cleanup in installer.php for this bug.
+
+20.08.2008
+0.9.6
+Bugfix: Occasional display of '0' hits/visitor
+Bugfix: translations never loading
+Implemented most read tags statistics
+Removed recent comments table
+Completed translation files
+Optimized TABLE_STATISTICS
+Optimized remote_addr handling in TABLE_STATISTICS_RAW
+* thanks to the guys at http://www.mysqlperformanceblog.com/ *
+
+
+14.08.08
+0.9.5
+Reimplemented week/month/year-statistics
+Updated language files (en.,de.)
+Browsers doing POST-Request == unknown robots
+Updated user-agents
+Robots with os do not change operating system count
+Fix: CyStats now uses WordPress time functions and time offset
+Bugfix: Division by zero in admin/index.php (bounce rate)
+Bugfix: Serialize options error for WP2.6.1 (again)
+
+12.08.2008
+0.9.4
+Implemented bounce rate
+Rearranged admin panels
+Removed some unneccesary statistics
+Removed javascript dependant statistics
+Bugfix: Serialize arrays in options table
+
+08.08.2008
+0.9.2
+Bugfix release: Removed ignore lists
+
+08.01.2008
+0.9.1
+Added Cityreview, WalHello to search engine user_agents
+Implemented page/post id blacklisting
+Implemented yesterdays referer
+Added some more user agents
+Added some ( :) ) more google identifiers to searchword scanner
+Bugfix: Added missing stripslashes to ignore_user_agent processing
+Bugfix: Array check for TABLE_STATISTICS query in cystats.class.php
+Bugfix: Year changing calculations 
+Bugfix: HITSMONTH_NOBOTS, VISITSMONTH_NOBOTS type id defines
+Bugfix: 'Key length too long' error during installation
+Bugfix: Serializing arrays in WP 2.6
+Bugfix: Removed sorttable.js due to IE7 issues
+
+29.11.2007
+0.9.0
+Added uninstaller to completely remove cystats database changes
+Added most visited pages today display on CyStats -> pages
+Updated language files
+Removed logging of userid, username, http_host
+Replaced CID-Hash with anonymousID-Hash for JS-logging
+Finally implemented IP anonymizing
+Implemented IP blocking with wildcards (*)
+Implemented user_agent regexp blocking
+Implemented basic 'about' page
+Implemented category overview stats for wp <,>=2.3
+Removed user-by-name statistics
+Removed wp cookie evaluation
+Added some USER_AGENT strings to includes/browsers.php
+Added some OS detection strings to includes/os.php
+Bugfix: pageid issue in cystats.php
+Bugfix: top commenters count (includes/template-functions.php)
+Bugfix: Malformed USER_AGENT strings in includes/browsers.php
+Bugfix: version string detection in includes/cystats.class.php for versions strings > 7 chars
+
+14.11.2007
+0.8.9
+Bugfix: Some constant declarations
+Bugfix: serchengine_type declared as integer instead of string
+Bugfix: Removed some <?= php shorttags from options.php
+
+12.11.2007
+0.8.8
+Added earchengine ids for
+	'search.live.com'=>'q',
+    'suche-de.aolsvc.de'=>'q'
+Implemented blocking-cookie-functionality (clients with cookie are not tracked)
+Implemented sorttable.js from Stuart Langridge, http://www.kryogenix.org/code/browser/sorttable/
+Last visits now mark (light green) recent hits (300sek), edited viewl.class.php, style.css
+Template Tag cystats_getHits('today'|'yesterday'|'week'|'month'|'year'|'all') implemented
+Added option 'time offset' to options panel for correcting timezones
+Main page in CyStats->Pages will be replaced by string describing main page instead of URL
+Bugfix: cystats_countPosts() does not count pages anymore.
+Bugfix: Added pagetype 'admin' to no-javascript-information-array in cystats.php
+Bugfix: Added transp.GIF code to error cases in logger.php
+Bugfix: cystats.js: visibility:hidden added
+Bugfix: Minor errors in admin/style.css
+Bugfix: Minor fixes/changes in admin pages table design
+Bugfix: Removed .rap ul, .wpap ul li styles
+Bugfix: Removed style.css from /cystats directory
+Bugfix: Added blank to NOSCRIPT-Tag for validation purposes
+
+08.10.2007
+0.8.7
+CyStats Time: Implemented Hits/Visits-per-day table
+Inserted template tag information line in readme.txt
+Bugfix: User-level-dependant option-panel-access disabled, just checking for 'can_manage_options' for now.
+Bugfix: Cannot-redeclare function cystats_create_admin_menu workaround.
+Bugfix: Pass-by-reference-error in includes/view.class.php
+Bugfix: Shortening referer in includes/view.class.php (line 445).
+Bugfix: Removed 'copy blog url from...' line in includes/logger.php
+Bugfix: template tag cystats_getPostVisitsByID()-counting real (timedelta dependant) visits, not every single hit on a post
+Bugfix: gmdate-parameter stamp in admin/options.php (line 68) shoud not be htmlspecialchar()'ed.
+
+28.09.2007
+0.8.6
+Optionen: Kontrollangabe des ersten Raw-Datenbankeintrags eingefügt.
+Implemented user level tracking restrictions (options panel), cystats can be stopped to track/count 
+users with a userlevel higher than the specified value. 
+
+25.09.2007
+0.8.5
+Refererliste für Referer des heutigen Tages implementiert.
+Tagesstatistiken in Cystats Zeitübersicht umgedreht.
+Bugfix: Lokale Referer werden sicherer erkannt
+
+19.09.2007
+0.8.4
+Ausgabe von cystats_getRecentCommented überarbeitet, 1 x htmlspecialchars() entfernt.
+%comment_permalink% als Subtag in cystats_get_RecentCommented implementiert.
+Bugfix: author_url-Ersetzung => comment_permalink
+
+19.09.2007
+0.8.3
+Bugfix: Unter manchen UTF8-Datenbanken schlägt die Installation nicht mehr wg.
+übergrosser Key-Länge fehl.
+
+Template Tag: cystats_getTopCommentedExt($limit,$pattern) implementiert, benutzt 
+$pattern mut ersetzbaren Sub-Pattern %post_title%, %post_permalink% und %post_comments%
+zur frei definierbaren Ausgabe. 
+
+Template Tag: cystats_getRecentCommentedExt($limit, $pattern) implementiert, benutzt 
+$pattern mit ersetzbaren Sub-Pattern %comment_post_permalink%, %comment_post_title%,
+%comment_author%, %comment_author_url%, %comment_date%, %comment_time%
+
+template Tag: cystats_countVisits($mode) implementiert, zeigt je nach $mode 
+('today','yesterday','week','month','year','all')
+
+Sprachdatei angepasst.
+
+12.09.2007
+0.8.2
+Bugfix: cytat_getTopCommenters() hatte kein 'NoResult Handling'
+
+10.09.2007
+0.8.1
+Feature: Prozentuale Übersicht über die Seitentypen (404, Single, Page,...) in 'CyStats-Seiten'
+Bugfix: cystats_getRecentComments() zeigt nun wirklich die Pots mit den letzten neuen Beiträgen an.
+Bugfix: Doppeltes http:// unter 'CyStats Robots und Tools' entfernt, URL-Handling überarbeitet.
+Bugfix: Feeds aus Einstiegsseiten entfernt.
+Bugfix: Anzahl der zu löchenden Suchworte unter 'CyStats Suchphrasen' wurde nicht angezeigt.
+Bugfix: MoreOverBot ist Suchmaschinenbot, nicht Tool
+Bugfix: cystats_getMostCommented(), _getRecentCommented hatten kein 'NoResult-Handling'
+
+06.09.2007
+0.8.0
+WordPress 2.3 Kompatibilität gewährleistet.
+
+05.09.2007
+0.7.9
+WhoIs-Anzeige in 'Letzte Besuche' implementiert.
+WhoIs-Anzeige in 'Feeds' implementiert.
+Neue USER_AGENT-Kennungen implementiert:
+    FRANCIS/2.0(FRANCIS@NEOMO.DEHTTP://WWW.NEOMO.DE/PAGES/CRAWLER.PHP) 
+    NETVIBES(HTTP://WWW.NETVIBES.COM/;3SUBSCRIBERS)
+    FEEDREADER3.10(POWEREDBYNEWSBRAIN)
+    FEEDFETCHER-GOOGLE;(+HTTP://WWW.GOOGLE.COM/FEEDFETCHER.HTML;13SUBSCRIBERS;FEED-ID=1794321835103376843)
+    KRUGLE/KRUGLE,NUTCH/0.8+(KRUGLEWEBCRAWLER;HTTP://CORP.KRUGLE.COM/CRAWLER/INFO.HTML;WEBCRAWLER@KRUGLE.COM) 
+    :ROBOT/1.4(LINUX)(ADMINE-MAIL:UNDEFINEDHTTP://WWW.NEOFONIE.DE/LOESUNGEN/SEARCH/ROBOT.HTML) 
+    MJ12BOT/V1.2.0(HTTP://MAJESTIC12.CO.UK/BOT.PHP?+)
+    PILGRIMHTML-CRAWLER(+HTTP://WWW.NETZWERKE-IM-INTERNET.DE/PILGRIM/INDEX.HTML)
+    BLOGCENSUS(HTTP://BLOGCENSUS.DE/BOT/)
+    YACYBOT(I386LINUX2.6.22.4-65.FC7;JAVA1.6.0_01;EUROPE/DE)HTTP://YACY.NET/YACY/BOT.HTML
+    BLOGSEARCH/1.1-PRE-$REV:96$-SVN+HTTP://WWW.ICEROCKET.COM/
+    BRIGHTCRAWLER(HTTP://WWW.BRIGHTCLOUD.COM/BRIGHTCRAWLER.ASP)
+    PAGEBULLHTTP://WWW.PAGEBULL.COM/
+    ZYMBOTRENATO@ZYMBOO.COM 
+    SEEKBOT/1.0(HTTP://WWW.SEEKBOT.NET/BOT.HTML)HTTPFETCHER/2.2 
+    SOGOUWEBSPIDER/3.0(+HTTP://WWW.SOGOU.COM/DOCS/HELP/WEBMASTERS.HTM#07)
+    BLOGATO/1.0 
+    VOYAGER/1.0 
+    ROMECLIENT(HTTP://TINYURL.COM/64T5N)VER:0.9
+    SITEBAR/3.3.8(BOOKMARKSERVER;HTTP://SITEBAR.ORG/) 
+    XENULINKSLEUTH1.2E
+Bugfix: Einige USER_AGENT-Kennungen waren beschädigt.
+Bugfix: CyStats-Code verhindert XHTML-Strict-Validation nicht mehr.
+Bugfix: CyStats-Link in WP-Plugins-Übersicht nicht mehr fehlerhaft.
+Bugfix: Zeit/Datum-Format von cystats_getRecentComments() entspricht jetzt den WordPress-Vorgaben
+
+03.09.2007
+0.7.8
+Bugfix: Links unter Browser + Browser-Versionen nicht mehr falsch gesetzt.
+
+30.08.2007
+0.7.7
+Bugfix: Links unter Browser + Browser-Versionen nicht mehr falsch gesetzt.
+
+30.08.2007
+0.7.6
+Bugfix: Doppeltes 'http://' in diversen Links entfernt.
+
+28.08.2007
+0.7.5
+Vollansichten für Browser, Browserversionen, Betriebssysteme.
+Browser, Robots, Betriebssysteme-Logoerweiterung
+Template Tag cystats_getPostVisitsByID($id) implementiert
+Betriebssystemicons in der Übersichtsliste
+Bugfix: Version im Installer ist jetzt ein String.
+Bugfix: Bildschirmauflösung 0x0 wird nicht mehr angezeigt.
+Bugfix: Wenn kein Icon vorhanden wird auch keine leere Tabellenspalte angezeigt.
+Bugfix: Feedreader-IPs werden nicht mehr als Bgint-Zahl angezeigt.
+Bugfix: Browsericons in der Übersichtsliste werden wieder angezeigt.
+
+27.08.2007
+0.7.4
+Schönheitskorrektur der Tabellen für Hits/Visits auf der Indexseite
+Schönheitskorrektur der Tabellen für die letzten Besuche auf der Indexseite
+
+26.08.2007
+0.7.3
+Post/Besucherzähler: Gezählt werden nur noch vermutl. menschliche Besucher
+Referer werden im Browser in neuer Seite aufgerufen
+HTTP_REFERER-Check in logger.php vorerst entfernt und
+Sicherheitscheck auf CID-Hash/MySQL-Vergleich abgeändert.
+Admin-, Feed und 404-Fehlerseiten jetzt optisch in Hitsliste erkennbar. 
+Höhe der AllHits-Listenansicht auf 500px vergrössert
+
+25.08.2007
+0.7.2
+Installer: WP-Funktion register_activation_hook() unter Windows fehlerhaft, durch add_action() ersetzt
+Einstellungen über CyStats Submenü erreichbar
+
+
+24.08.2007
+0.7.1
+Installer nochmal überarbeitet
+Installer-Registrierung an  Anfang von cystats.php verlegt
+CYSTATS_FIRSTDAY timestamp aus TABLE_STATISTICS entfernt
+
+22.08.2007
+0.7.0
+Installertests abgeschlossen
+Datenbankspalte entrypage implementiert
+Entrypagehandling optimiert
+Template-Tag cystats_countAvgPostsPerDay implementiert
+Template-Tag cystats_countAvgCommentsPerDay implementiert
+Betriebsyteme in eigene Definitionsdatei ausgelagert
+Betriebssystemspeicherung auf SMALLINT umgestellt, Ersparnis ca. 10 Byte/Visit
+USER_AGENT-Auswertung/Speicherung auf SMALLINT umgestellt, Ersparnis ca. 8 Byte/Visit
+Speicherung unbekannter USER_AGENTS angepasst
+IP-Speicherung i.d. Datenbank von VARCHAR(12Byte,langsam) auf BIGINT(8Byte,schneller) umgestellt
+Bildschirmauflösungspeicherung von VARCHAR(12Byte) auf 2xSMALLINT(2Byte) umgestellt.
+Optimierungsergebnis Datensatzgrösse/Visit < 100Bytes im Durchschnitt erreicht.
+
+20.08.2007
+0.6.9
+$wpdb->prefix-Nutzung implementiert.
+$wpdb->prefix-Bugfixes
+Installertest und Bugfixes
+
+19.08.2007
+0.6.8
+Übersetzung aktualisiert
+
+18.08.2007/0.6.7
+All-visits-Seite mit Pagination implementiert
+All-searchengine-referer implementiert
+Datenbanktabellenspalte referertype implementiert
+
+16.08.2007/0.6.6
+Datenbanktabellenreset implementiert.
+Anzeige der Items (Wochentag,Woche,...) in Zeitstatistiken korrigiert
+Anzeige-Tabellenformat der Zeitanzeige korrigiert
+Tabellenfeld 'revisit' für Erkennung wiederkehrender Besucher implementiert
+
+15.08.2007/0.6.5
+Optimierung der statischen SELECT-Abfrage: von ca. 0,005 Sek. auf 0,0001Sek.
+Optimierung der IP-Sperren-Query
+Local-referer-tracking jetzt optional, spart len(local-referer) Bytes/Visit
+Refererseite zeigt Local Referer jetzt abhängig von Option Local-referer-tracking
+Templatetags: Count(*) optimieren
+Rotfärbung bei Überhanganzeige in den Datenbanktabellen
+Bugfix #0012
+Bugfix #0013
+
+14.08.2007/0.6.4
+Datenbankstatistiken mit Grössen: Durchschnittliche Zeilenlänge, Grösse des Datenfiles, 
+Indexgrösse, Grösse des reservierten Bereiches, Aufsummierung der Daten.
+Anzahl der unique Feedreader heute im Adminbereich.
+
+13.08.2007/0.6.3
+Alle Konstanten mit für bessere Pluginkompatibilität mit Prefix CYSTATS_ versehen
+
+12.06.2008/0.6.2
+Optimierung: Javascriptlogger mit eigenem Datenbankhandling ausgestattt, 
+durch Streichen von includes() der wp-settings.php wurden 11 MySQL-Queries eingespart 
+und die Scriptausführungszeit um ca. 50% verkürzt.
+Sicherheitscheck in Javascriptloggerscript implementiert.
+
+11.08.2006/0.6.1
+Optionen: Intervallparameter ergänzt
+Optionen: CyStatsversion, Livetabellengrösse hinzugefügt.
+Sprachdatei ergänzt/überarbeitet
+USER_AGENTS NewsAlloy, Mirago_Test_Robot
+Links ergänzt für Feedreader, Akregator, FeedOnFeeds
+Visits-Anzeige: HTTP-Method
+Username-Cookie-Erkennung
+Template-Tag: cystats_countFeedreadersToday()
+Template-Tag: cystats_countUsersOnline()
+Template-Tag: cystats_getUsersOnline() -> IPs
+Template-Tag: cystats_getClientTypeOnline() für Browser,Feedreader, Tools, Suchmaschinen
+
+10.08.2007/0.6.0
+Datenbank: Suchworte in Livetabelle verlagert
+Datenbank: Keys/Indizes angelegt
+Datenbank: Livetabelle die Spalten username, searchstring, searchstringtype hinzugefügt
+Datenbank: Spalten überarbeitet, Grössen reduziert
+Datenbank: Autodelete für MD5-Hash in Livetabelle
+Datenbank: CyStats-Version in DB
+Suchstringanzeige im Adminbereich angepasst
+
+07.08.2007/0.5.3
+Seitennavigation für Raw-Visits-liste implementiert.
+Einstellungsseite optisch verfeinert.
+Übersetzungsdatei überarbeitet.
+
+06.08.2007/0.5.2
+Hooks abgeändert ('shutdown' für Admin-Seiten)
+Datenbank-Leselimit für Browser/Robots/Tools/Unbekannt auf Rawtablegrösse gesetzt
+Adminbereich für Suchstrings ausgebaut.
+Löschen der Suchstringdatenbanken im Adminbereich implementiert.
+Seitennavigation für Refererliste implementiert.
+Optimierung: Einzelsuchwortaufteilung entfernt.
+Bugfix #0011 (Pagetype 0)
+Bugfix #0012 (Prozentrechnung)
+Bugfix #0008 (Referer)
+Bugfix #0002 (Whitespace)
+
+05.08.2007/0.5.1
+Templatefunktion get_mostvisitedposts() implementiert
+Layout im Blogstatistikbereich angepasst
+Bugfix #0009 (USER_AGENT-Anzeige sprengt Layout)
+
+04.08.2007/0.5.0
+Statistik-Hook auf 'init' gelegt.
+Page/Userdata-Hook auf 'template_redirect' gelegt.
+Javascriptinformationslogging angepasst.
+Kürzfunktionen/-Optionen für Page-,Referer- und USER_AGENTs in Rawliste implementiert. 
+
+02.08.2007/0.4.2
+USER_AGENT-Array überarbeitet.
+USER_AGENTS ergänzt(4).
+CHANGELOG, BUGS, TODO-Dateien angelegt.
+Optimierung: browsers.php.
+Optimierung: Permalinkauflösung in cystats_logger() entfernt.
+
+30.07.2007/0.4.1 
+Optimierung (cystats.class.php): include() entfernt.
+Optimierung (cystats.class.php): require_once() optimiert.
+Optimierung (cystats..php): Templatefunktionen ausgelagert.
+Optimierung (cystats..php): Installerfunktionen ausgelagert.
+Optimierung (cystats.php): require_once()es durch include()es ersetzt.
+Optimierung: Diverse Stringänderungen von “” auf ”.
+Übersetzung abgeschlossen.
+
+25.07.2007/0.4.0 
+Javascript-Tracking an/aus implementiert
+Unique FeedreaderIPs/Tag
+Post-Visits tracking
+Komplette Umstellung auf $wpdb Datenbankhandling
+Bugfix #0007
+get_permalink() durch ressourcenschonende guid ersetzt
+Refereranzeige als ‘via’ in Last-Visits-Raw-Data-Liste implementiert
+Code aufgeräumt und dokumentiert
+Adminseiten-Tracking an/aus implementiert
+Option Zu-zeigende-Anzahl-Raw-Visits-Data
+Optionen-Menü/Seite implementiert
+Rüchwechsel zu ‘template_redirect’ als Hook (Bug #0006)
+Post-Visits Tracking implementiert
+User Tracking implementiert
+Template-Tag: cystats_getmostcommented()
+Template-Tag: cystats_getrecentcommented
+Template-Tag: cystats_getrecentposts()
+Template-Tag: cystats_countpages()
+Template-Tag: cystats_countauthors()
+Template-Tag: cystats_countposts()
+Template-Tag: cystats_gettopcommenters()
+Template-Tag: cystats_countusers()
+Template-Tag: cystats_firstpost()
+Template-Tag: cystats_firstpostdays()
+Template-Tag: cystats_countusers()
+Template-Tag: cystats_categories()
+Template-Tag: cystats_comments()
+
+24.07.2007/0.3.0 
+Verzeichnisstruktur komplett überarbeitet
+Umstellung auf Hook ‘init’ für Basistracking
+Adminbackend auf $wpdb-Queries umgestellt
+Adminbackend Seitenüberarbeitung
+Adminbackend Menüüberarbeitung
+Sinnloses Array-Imploding/Exploding entfernt
+Code/String-Übersetzungsvorbereitung
+
+23.07.2007/0.2.4 
+Nur-Browser-Langzeitstatistiken (NoBots) implementiert.
+Layoutüberarbeitung begonnen
+Link-Ergänzung für Clients (Browser, Bots, Tools) implementiert.
+11 Browserkennungen ergänzt
+23 Betriebssystemkennungen ergänzt
+Bugfix: #0003, #0004, #0005
+Bugfix: Post/Seiten-Feeds wurden nicht erfasst
+
+03.03.2007/0.2.3 
+Suchworterfassung (intern/extern)
+Suchstringerfassung (intern/extern)
+Template-Tags für DatumErsterBeitrag, Beitragszahl, Kommentarzahl
+Top10 neue Beiträge/Kommentare
+Hits der Stunden (24)
+Hits der fortlaufenden Tage (356)
+Hits/Visits Monatsdiagramm
+Hits/Visits Wochendiagramm
+Hits/Visits Jahresdiagramm
+USER_AGENTS ergänzt (Suchen-de->Gonzo)
+Bugfix: Post/Seiten-Feeds wurden nicht erfasst
+
+20.02.2007/0.2.2 
+Post-/Seitentitelanzeige statt URL
+Zeit des letzten Zugriffes implementiert
+Datenbank mit WordPress-Datenbank zusammengeführt
+Getrennte Robot/Tool/Browserauflistung
+CSS- und Startseitenüberarbeitung, Floatcontainer
+Client-Fensterdimensionen
+Hits/Visits für Tag/Vortag/Monat/Vormonat/Jahr/Vorjahr
+Diverse USER_AGENTs hinzugefügt
+Differenzierung nach GET/POST Request
+Agent-Erkennung umstrukturiert, ‘Good’-Clients werden geparst, unerkannte (potentielle ‘bad’-) Clients als USER_AGENT gespeichert
+Optimierung: Datenbankspalten(’js’,'method’=bool,’browserlink’,'block’=>entfernt)
+Bugfix: visits_day-Zählung fehlerhaft
+Bugfix: Browser-Versionenauflistung fehlerhaft
+Bugfix: Variablendeklaration in cystats.class.php
+Bugfix: Hits/Visits LastWeek fehlerhaft
+
+16.02.2007/0.2.1 
+Refereraufteilung in Intern/Extern
+Infoseite
+mysql/html-Filter für Ausgabe
+mysql-Filter für Datenspeicherung
+Browserfenstergrösse
+Pagetype (WordPress)
+Post->ID (WordPress)
+Referersplit in intern/extern/Suchmaschinen
+RSS/RSS2/RDF/ATOM-Logging
+Trackback/Pingback-Logging
+
+25.01.2007/0.2.0 
+Portierung der Behemoth Blog/Gallery-Statistiksysteme zu WordPress
+Statistik-Class gesplittet->Übersicht
+Browserkeys sparen 15Kb/Eintrag in der Datenbank
+Zahlenstatistiken (Hits, Visits,…) implementiert
+Suchwort-Regexp, mehr Robot-User_agents
+Verbesserungen in der Surchworterkennung (mult. “?” im Querystring)
+2nd-Pass-Verfahren für User_agent/IP implementiert
+Mehr User_agents…
+Bugfix: Javascriptimplementation
+Bugfix: Pluginpfad bei geänderter Permalinkstruktur
+
+12.08.2005/0.1.0 
+Erste funktionsfähige Version
+
+

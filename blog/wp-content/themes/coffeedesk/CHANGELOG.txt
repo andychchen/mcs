@@ -1,0 +1,9 @@
+http://www.templatelite.com/coffee-desk-free-wordpress-theme/
+
+VERSION DATE        TYPE    CHANGES
++-------+-----------+-------+----------------------------------------------------------------------------------+
+1.03    2009/05/11  Modify  Move javascript to seperate .js file
+                    Fix     Fix Tag Cloud widget display problem
+1.02    2009/04/21  Modify  Modify the javascript to fix the height of dynamic content.
+1.01    2009/03/05  Fix     Fixed comment display problem in IE.
+1.00    2009/02/24  New     New release.

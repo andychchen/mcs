@@ -1,0 +1,23 @@
+* html .asides .one {
+	margin: 0 5px;
+}
+
+* html .asides .navigation, * html .asides .navigation .edge-nav, * html .asides .navigation a {
+	height:56px;
+}
+
+* html .asides h2.featured {
+	background-image:none;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/featured_h2.png',sizingMethod='crop');}
+
+* html h1.logo {
+	background-image:none;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/logo.png',sizingMethod='crop');
+	margin-left:142px;
+}
+
+* html .sub-container .one {margin-left:5px !important;}
+
+
+
+* html div.edge-alt {bottom:-7px;}

@@ -1,0 +1,8 @@
+vti_encoding:SR|utf8-nl
+vti_restartmanual:IX|0
+vti_featurelist:VX|vti_ACAll vti_ServiceMarkUrlDirBrowse vti_ServiceMarkUrlDirExec vti_ServiceMarkUrlDirScript vti_ServiceMarkUrlDirExec vti_ACIPAddresses vti_ServerIndexServer vti_ServerODBC vti_ServerASP vti_ServerCollab vti_TimedDocEvents
+vti_approvalapproved:SR|Approved
+vti_approvaldenied:SR|Denied
+vti_disableautoimgsizeexts:SX|.asp
+vti_createpostinfo:BX|false
+vti_approvallevels:VR|Approved Denied Pending\\ Review

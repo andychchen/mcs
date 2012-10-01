@@ -1,0 +1,420 @@
+/*
+Theme Name: Chara Theme
+Author: WPThemeDesigner.com
+Author URI: http://www.wpthemedesigner.com/
+*/
+
+* {
+	margin: 0; padding: 0;
+}
+body {
+	text-align: center;
+	font: 12px Arial;
+	color: #68645A;
+	background: #BEB7A9 url(images/background.gif) repeat-x 0 0;
+}
+a {
+	text-decoration: none;
+	color: #000000;
+}
+a:hover {
+	text-decoration: underline;
+}
+img {
+	border: 0;
+}
+
+.break {
+	font-size: 0;
+	width: 0; height: 0;
+	clear: both;
+}
+.alignleft {
+	float: left;
+	margin: 4px 10px 5px 0;
+}
+.alignright {
+	float: right;
+	margin: 4px 0 5px 10px;
+}
+.aligncenter {
+	text-align: center;
+}
+.hidden {
+	display: none;
+}
+
+/** BEGIN wrapper **/
+#wrapper {
+	width: 980px;
+	margin: auto auto;
+	text-align: left;
+}
+/** END wrapper **/
+
+/** BEGIN header **/
+#header {
+	height: 157px;
+}
+	#header ul {
+		list-style-type: none;
+		padding-left: 10px;
+	}
+		#header ul li {
+			float: left;
+			padding: 13px 32px 0 0;
+		}
+		#header ul li a {
+			color: #BEB7A9;
+			font-weight: bold;
+			text-transform: uppercase;
+			font-family: Verdana;
+			font-size: 0.9em;
+		}
+		#header ul li a:hover {
+			color: #8AC3D4;
+			text-decoration: none;
+		}
+	#header .links {
+		float: right;
+		font-family: Verdana;
+		font-size: 0.9em;
+		color: #BEB7A9;
+		padding-top: 12px;
+	}
+		#header .links a {
+			color: #BEB7A9;
+			margin: 0 8px;
+		}
+		#header .links a:hover {
+			color: #8AC3D4;
+			text-decoration: underline;
+		}
+	#header .logo {
+		float: left;
+		padding: 39px 8px 0;
+	}
+		#header .logo h1 {
+			font-size: 0;
+		}
+		#header .logo h1 a {
+			display: block;
+			width: 335px; height: 55px;
+			background: url(images/logo.gif) no-repeat 0 0;
+			text-indent: -9999px;
+			outline: none;
+		}
+		#header .logo p {
+			display: none;
+		}
+	#header .ad468x60 {
+		float: right;
+		padding-top: 36px;
+	}
+	#header {
+		
+	}
+/** END header **/
+
+/** BEGIN body **/
+#body {
+	background: #ffffff url(images/body.gif) repeat-x 0 0;
+}
+/** END body **/
+
+/** BEGIN content **/
+#content {
+	width: 670px;
+	float: left;
+	padding: 5px 0 20px;
+}
+	#content p {
+		margin-bottom: 10px;
+		line-height: 1.4em;
+	}
+	#content h3 {
+		margin-bottom: 5px;
+		font-size: 1.5em;
+		font-weight: normal;
+	}
+	#content blockquote {
+		margin-bottom: 10px;
+		padding: 10px 10px 5px;
+		background-color: #eeeeee;
+		border-width: 1px 0;
+		border-style: solid;
+		border-color: #cccccc;
+		font-weight: bold;
+		font-style: italic;
+	}
+	#content ul {
+		margin: 0 0 10px 18px;
+	}
+	#content ol {
+		margin: 0 0 10px 16px;
+	}
+	#content li {
+		padding: 2px 0;
+	}
+	#content .post {
+		padding: 20px 20px 5px;
+		clear: both;
+	}
+		#content .post .thumb {
+			float: left;
+			padding-right: 10px;
+		}
+		#content .post .thumb img {
+			width: 258px;
+		}
+		#content .post h2 {
+			text-transform: uppercase;
+			font-size: 1.5em;
+			font-weight: normal;
+		}
+			#content .post h2 a {
+				color: #8AC3D4;
+			}
+		#content .post .details1 {
+			padding-top: 8px;
+			font-size: 0.9em;
+			margin-bottom: 5px;
+			color: #808080;
+		}
+			#content .post .details1 a {
+				color: #A9A18C;
+				padding-left: 20px;
+				background: url(images/comments.gif) no-repeat 0 0;
+				margin-left: 10px;
+			}
+		#content .post .details2 {
+			font-size: 0.9em;
+			background-color: #E2DBCF;
+			padding: 8px 8px 1px;
+			float: left;
+			width: 344px;
+		}
+			#content .post .details2 .l {
+				float: left;
+				margin-bottom: 5px;
+				width: 45%;
+			}
+			#content .post .details2 .r {
+				float: right;
+				margin-bottom: 5px;
+				width: 45%;
+				text-align: right;
+			}
+			#content .post a {
+				color: #C64747;
+			}
+	#content .single .details2 {
+		width: 615px;
+	}
+/** END content **/
+
+/** BEGIN sidebar **/
+#sidebar {
+	width: 275px;
+	float: right;
+	padding: 25px 20px 20px 5px;
+}
+	#sidebar h2 {
+		color: #DC6A6A;
+		font-size: 1.2em;
+		margin-bottom: 10px;
+	}
+	#sidebar ul {
+		list-style-type: none;
+		padding: 5px 0 20px;
+	}
+		#sidebar ul li {
+			line-height: 1.4em;
+			padding: 4px 0;
+		}
+		#sidebar ul li a {
+			color: #68645A;
+		}
+		#sidebar ul.rc li a {
+			color: #8AC3D4;
+		}
+	#sidebar .l {
+		float: left;
+		width: 135px;
+	}
+	#sidebar .r {
+		float: right;
+		width: 135px;
+	}
+	#sidebar .flckr {
+		padding: 10px 0 20px;
+	}
+		#sidebar .flckr img {
+			margin: 4px;
+			width: 75px; height: 75px;
+		}
+	#sidebar .tags {
+		padding: 10px 0 20px;
+	}
+		#sidebar .tags a {
+			color: #68645A;
+		}
+		#sidebar .tags a:hover {
+			color: #8AC3D4;
+			text-decoration: none;
+		}
+/** END sidebar **/
+
+/** BEGIN footer **/
+#footer {
+	background-color: #797263;
+	color: #ffffff;
+	font-size: 0.9em;
+	padding: 15px 10px;
+	font-family: Verdana;
+}
+	#footer a {
+		color: #8AC3D4;
+	}
+/** END footer **/
+
+/** BEGIN miscellaneous **/
+.postnav {
+	clear: both;
+	padding: 20px 25px 0;
+	font-size: 0.9em;
+}
+	.postnav a {
+		border: 1px solid #cccccc;
+		padding: 3px 8px;
+		color: #999999;
+	}
+	.postnav a:hover {
+		border: 1px solid #000000;
+		color: #000000;
+		text-decoration: none;
+	}
+#comments {
+	padding: 25px 25px 20px;
+}
+	#comments h2 {
+		margin: 20px 0 5px;
+		font-size: 1.5em;
+		font-weight: normal;
+		
+	}
+	#comments p {
+		margin-bottom: 10px;
+		line-height: 1.5em;
+	}
+	#comments form {
+		padding-top: 20px;
+	}
+	#comments form p {
+		margin-bottom: 5px;
+	}
+		#comments form input, textarea {
+			border: 1px solid #cccccc;
+			font-size: 0.9em;
+			font-family: Verdana;
+			padding: 4px;
+			background-position: 4px 4px;
+			background-repeat: no-repeat;
+		}
+		#comments form input {
+			width: 260px;
+			border: 1px solid #cccccc;
+		}
+		#comments form textarea {
+			width: 350px;
+			padding: 4px 4px !important;
+			border: 1px solid #cccccc;
+		}
+		#comments form button {
+			border: 1px solid #909090;
+			background-color: #cccccc;
+			font-size: 0.9em;
+			font-family: Verdana;
+			width: 120px; height: 23px;
+		}
+	.commentdetails {
+		margin-top: 25px;
+	}
+	.commentauthor {
+		margin-bottom: 5px !important;
+		font-weight: bold;
+	}
+	.commentdate {
+		font-size: 0.8em;
+		margin-bottom: 5px;
+		color: #909090;
+	}
+	.required {
+		color: #ff0000;
+	}
+h2.title {
+	font-size: 1em;
+	text-transform: uppercase;
+	padding: 25px 25px 0;
+	color: #565656;
+}
+.notfound {
+	padding: 40px;
+}
+	.notfound h2 {
+		font-size: 18px;
+		font-weight: normal;
+		margin-bottom: 10px;
+	}
+/** END miscellaneous **/
+
+/** BEGIN wordpress 2.7 comments **/
+#comments ol {
+	list-style-type: none;
+	clear: both;
+	padding: 0;
+	margin: 0;
+}
+	#comments ol li {
+		padding: 10px;
+		border: 1px solid #e0e0e0;
+		margin-bottom: 10px;
+	}
+	#comments ol li .avatar {
+		float: right;
+	}
+	#comments ol li .comment-author {
+		
+	}
+		#comments ol li .comment-author .fn {
+			font-weight: bold;
+			font-size: 1.2em;
+		}
+	#comments ol li .comment-meta {
+		font-size: 0.9em;
+		color: #999999;
+		margin: 5px 0 10px;
+	}
+	#comments ol li .reply {
+		font-size: 0.9em;
+		font-weight: bold;
+		padding-bottom: 10px;
+	}
+	#comments .children {
+		list-style-type: none;
+	}
+#comments .navigation {
+	padding: 10px 0 20px;
+	font-size: 0.9em;
+}
+	#comments .navigation a {
+		color: #999999;
+		padding: 3px 8px;
+		border: 1px solid #cccccc;
+	}
+	#comments .navigation a:hover {
+		color: #000000;
+		border-color: #000000;
+		text-decoration: none;
+	}
+/** END wordpress 2.7 comments **/

@@ -1,0 +1,52 @@
+<contacts>
+    <contact id = "1">
+       <firstname>Sue</firstname>
+        <lastname>Black</lastname>
+        <street>77 Massachusetts Avenue</street>
+        <city>Cambridge</city>
+        <state>MA</state>
+        <zip>02139</zip>
+        <email>sue.black@email.com</email>
+        <phone>555-555-5555</phone>
+    </contact>
+    <contact id = "2">
+        <firstname>James</firstname>
+        <lastname>Blue</lastname>
+        <street>219 4th Avenue</street>
+        <city>Seattle</city>
+        <state>WA</state>
+        <zip>98109</zip>
+        <email>james.blue@email.com</email>
+        <phone>555-555-5555</phone>
+    </contact>
+    <contact id = "3">
+        <firstname>Mike</firstname>
+        <lastname>Brown</lastname>
+        <street>1315 Cestnut Street</street>
+        <city>St. Louis</city>
+        <state>MO</state>
+        <zip>63103</zip>
+        <email>mike.brown@email.com</email>
+        <phone>555-555-5555</phone>
+    </contact>
+    <contact id = "4">
+        <firstname>Meg</firstname>
+        <lastname>Gold</lastname>
+        <street>700 14th Street</street>
+        <city>Denver</city>
+        <state>CO</state>
+        <zip>80206</zip>
+        <email>meg.gold@email.com</email>
+        <phone>555-555-5555</phone>
+    </contact>
+    <contact id = "5">
+        <firstname>John</firstname>
+        <lastname>Gray</lastname>
+        <street>525 Arch Street</street>
+        <city>Philadelphia</city>
+        <state>PA</state>
+        <zip>19106</zip>
+        <email>john.gray@email.com</email>
+        <phone>555-555-5555</phone>
+    </contact>
+</contacts>

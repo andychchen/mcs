@@ -1,0 +1,12 @@
+*** Blogtheme Changelog ***
+ 
+2008.12.23 - version 1.0.2
+	* sitemap.php - Removed top sidebar section when on sitemap
+	  sidebar.php 
+
+2008.12.17 - version 1.0.1
+  * comments.php - Fixed bug in IE7
+  * style.css - Added styling for calendar widget
+  
+2008.11.28 - version 1.0.0
+  * First release!

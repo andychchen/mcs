@@ -1,0 +1,61 @@
+.right_column_headings{
+	behavior:expression((this.runtimeStyle.behavior="none")&&(this.pngSet?this.pngSet=true:(this.nodeName == "IMG" && this.src.toLowerCase().indexOf('.png')>-1?(this.runtimeStyle.backgroundImage = "none",
+	this.runtimeStyle.filter = "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='" + this.src + "', sizingMethod='image')",
+	this.src = "images/transparent.gif"):(this.origBg = this.origBg? this.origBg :this.currentStyle.backgroundImage.toString().replace('url("','').replace('")',''),
+	this.runtimeStyle.filter = "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='" + this.origBg + "', sizingMethod=scale')",
+	this.runtimeStyle.backgroundImage = "none")),this.pngSet=true)
+	);
+}
+
+#content{
+	behavior:expression((this.runtimeStyle.behavior="none")&&(this.pngSet?this.pngSet=true:(this.nodeName == "IMG" && this.src.toLowerCase().indexOf('.png')>-1?(this.runtimeStyle.backgroundImage = "none",
+	this.runtimeStyle.filter = "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='" + this.src + "', sizingMethod='image')",
+	this.src = "images/transparent.gif"):(this.origBg = this.origBg? this.origBg :this.currentStyle.backgroundImage.toString().replace('url("','').replace('")',''),
+	this.runtimeStyle.filter = "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='" + this.origBg + "', sizingMethod=scale')",
+	this.runtimeStyle.backgroundImage = "none")),this.pngSet=true)
+	);
+}
+
+.post_heading{
+	behavior:expression((this.runtimeStyle.behavior="none")&&(this.pngSet?this.pngSet=true:(this.nodeName == "IMG" && this.src.toLowerCase().indexOf('.png')>-1?(this.runtimeStyle.backgroundImage = "none",
+	this.runtimeStyle.filter = "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='" + this.src + "', sizingMethod='image')",
+	this.src = "images/transparent.gif"):(this.origBg = this.origBg? this.origBg :this.currentStyle.backgroundImage.toString().replace('url("','').replace('")',''),
+	this.runtimeStyle.filter = "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='" + this.origBg + "', sizingMethod=scale')",
+	this.runtimeStyle.backgroundImage = "none")),this.pngSet=true)
+	);
+}
+
+#welcome{
+	display: inline;
+	width: 345px;
+	float: left;
+	margin: 46px 0px 0px 231px;
+}
+
+#right_column ul.gallery {
+	width: 300px;
+	float: left;
+}
+
+
+#right_column ul.gallery li{
+	display: block;
+	width: 81px;
+	height: 67px;
+	float: left;
+	margin: 15px 0px 10px 10px;
+	background: url(images/gallery_thumb.jpg) no-repeat;
+	border: none;
+}
+
+.entry a.continue{
+	width: 300px;
+	color: #ad1f23;
+	font-size: 14px;
+	font-weight: bold;
+	margin: 4px 0px 0px 0px;
+	float: left;
+	text-decoration: underline;
+}
+
+

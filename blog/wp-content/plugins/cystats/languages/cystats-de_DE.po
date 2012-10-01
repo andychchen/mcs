@@ -1,0 +1,998 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cystats\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-10-23 17:11+0200\n"
+"PO-Revision-Date: 2008-10-23 17:14+0100\n"
+"Last-Translator: Michael Weingärtner <weingaertner.michael@gmx.de>\n"
+"Language-Team: Michael Weingärtner <weingaertner.michael@gmx.de>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: German\n"
+"X-Poedit-Country: GERMANY\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: admin/clients.php:3
+msgid "CyStats Clients"
+msgstr "CyStats Clients"
+
+#: admin/clients.php:9
+#: admin/clients.php:33
+msgid "Operating system"
+msgstr "Betriebssystem"
+
+#: admin/clients.php:16
+#: admin/clients.php:28
+msgid "Browser"
+msgstr "Browser"
+
+#: admin/clients.php:22
+#: admin/clients.php:41
+msgid "Browser versions"
+msgstr "Browserversionen"
+
+#: admin/clients.php:28
+#: admin/clients.php:33
+#: admin/clients.php:41
+msgid "More..."
+msgstr "Mehr..."
+
+#: admin/clients.php:48
+#: admin/robots.php:19
+msgid "Tools & Scripts"
+msgstr "Tools & Scripts"
+
+#: admin/clients.php:53
+#: admin/robots.php:3
+msgid "CyStats Robots & Tools"
+msgstr "CyStats Robots & Tools"
+
+#: admin/clients.php:58
+#: admin/robots.php:8
+msgid "Searchengines"
+msgstr "Suchmaschinen"
+
+#: admin/clients.php:62
+#: admin/robots.php:12
+msgid "Email / Feedreader"
+msgstr "Email / Feedreader"
+
+#: admin/clients.php:69
+#: admin/robots.php:23
+msgid "Unknown user agents"
+msgstr "Unbekannt"
+
+#: admin/pages.php:3
+msgid "CyStats Pages"
+msgstr "CyStats Seiten"
+
+#: admin/pages.php:9
+#: admin/index.php:433
+msgid "Most visited blogpages today"
+msgstr "Meistbesuchte Blogseiten heute"
+
+#: admin/pages.php:16
+#: admin/index.php:439
+msgid "Most visited blogpages"
+msgstr "Meistbesuchte Blogseiten"
+
+#: admin/pages.php:23
+msgid "Entrypages"
+msgstr "Einstiegsseiten"
+
+#: admin/pages.php:30
+msgid "404 error pages"
+msgstr "404 Fehlerseiten"
+
+#: admin/pages.php:36
+msgid "Pagetypes"
+msgstr "Seitentypen"
+
+#: admin/referer.php:4
+#: admin/index.php:7
+msgid "CyStats External Referer"
+msgstr "CyStats Externe Referer"
+
+#: admin/referer.php:24
+#: admin/referer.php:57
+#: admin/referer.php:89
+#: admin/referer.php:122
+#: admin/index.php:27
+#: admin/index.php:60
+#: admin/index.php:92
+#: admin/index.php:125
+#: admin/index.php:160
+msgid "Page navigation"
+msgstr "Seiten"
+
+#: admin/referer.php:29
+#: admin/referer.php:62
+#: admin/referer.php:94
+#: admin/referer.php:127
+#: admin/index.php:32
+#: admin/index.php:65
+#: admin/index.php:97
+#: admin/index.php:130
+#: admin/index.php:165
+msgid "Visit page"
+msgstr "Besuche Herkunftsseite"
+
+#: admin/referer.php:33
+#: admin/referer.php:147
+#: admin/index.php:36
+msgid "External referer"
+msgstr "Externe Referer"
+
+#: admin/referer.php:37
+#: admin/index.php:40
+msgid "CyStats Searchengine Referer"
+msgstr "Suchmaschinen-Referer"
+
+#: admin/referer.php:66
+#: admin/referer.php:150
+#: admin/index.php:69
+msgid "Searchengine referer"
+msgstr "Suchmaschinen-Referer"
+
+#: admin/referer.php:69
+#: admin/index.php:72
+msgid "CyStats Referer Today"
+msgstr "CyStats Referer heute"
+
+#: admin/referer.php:98
+#: admin/referer.php:131
+#: admin/referer.php:138
+#: admin/index.php:101
+#: admin/index.php:134
+#: admin/index.php:471
+msgid "Referer today"
+msgstr "Heutige Referer"
+
+#: admin/referer.php:102
+#: admin/index.php:105
+msgid "CyStats Referer Yesterday"
+msgstr "CyStats Referer gestern"
+
+#: admin/referer.php:135
+msgid "CyStats Referer"
+msgstr "CyStats Referer"
+
+#: admin/referer.php:138
+#: admin/referer.php:143
+#: admin/referer.php:147
+#: admin/referer.php:150
+#: admin/index.php:471
+#: admin/index.php:476
+msgid "Get more referers..."
+msgstr "Mehr..."
+
+#: admin/referer.php:138
+#: admin/referer.php:143
+#: admin/referer.php:147
+#: admin/referer.php:150
+#: admin/index.php:471
+#: admin/index.php:476
+msgid "More referers..."
+msgstr "Ausführlichere Refererliste..."
+
+#: admin/referer.php:143
+#: admin/index.php:476
+msgid "Referer yesterday"
+msgstr "Referer gestern"
+
+#: admin/referer.php:157
+msgid "Internal referer"
+msgstr "Bloginterne Referer"
+
+#: admin/blog.php:3
+msgid "CyStats Blog"
+msgstr "CyStats Blog"
+
+#: admin/blog.php:8
+msgid "Recent commented posts"
+msgstr "Zuletzt kommentierte Beiträge"
+
+#: admin/blog.php:18
+msgid "Most active comment authors"
+msgstr "Aktivste Kommentarautoren"
+
+#: admin/blog.php:30
+msgid "Tags"
+msgstr "Tags"
+
+#: admin/blog.php:34
+msgid "Categories"
+msgstr "Kategorien"
+
+#: admin/blog.php:41
+msgid "Database statistics"
+msgstr "Datenbankstatistiken"
+
+#: admin/blog.php:46
+msgid "Rows"
+msgstr "Zeilen"
+
+#: admin/blog.php:47
+msgid "Avg. row length"
+msgstr "Durchschnittliche Zeilengrösse"
+
+#: admin/blog.php:48
+msgid "Data length"
+msgstr "Datendateigrösse"
+
+#: admin/blog.php:49
+msgid "Index length"
+msgstr "Indexgrösse"
+
+#: admin/blog.php:50
+msgid "Reserved length"
+msgstr "Ungenutzt"
+
+#: admin/index.php:138
+msgid "Visits history"
+msgstr "Zugriffe"
+
+#: admin/index.php:173
+#: admin/index.php:603
+msgid "Last hits"
+msgstr "Aktuelle Besuche"
+
+#: admin/index.php:185
+#: admin/index.php:199
+msgid "Searchstrings successfully deleted"
+msgstr "Suchphrasen erfolgreich gelöscht"
+
+#: admin/index.php:188
+#: admin/index.php:202
+msgid "Nothing deleted"
+msgstr "Es konnte nichts gelöscht werden"
+
+#: admin/index.php:206
+msgid "CyStats Index"
+msgstr "CyStats Index"
+
+#: admin/index.php:212
+msgid "Blog information"
+msgstr "Bloginformationen"
+
+#: admin/index.php:216
+msgid "First post date"
+msgstr "Datum des ersten Beitrags"
+
+#: admin/index.php:220
+msgid "Days since first post"
+msgstr "Tage seit erstem Beitrag"
+
+#: admin/index.php:225
+msgid "Avg. posts per day"
+msgstr "Durchschnittl. Beiträge/Tag"
+
+#: admin/index.php:229
+msgid "Avg. comments per day"
+msgstr "Durchschnittl. Kommentare/Tag"
+
+#: admin/index.php:255
+msgid "Welcome to CyStats - a WordPress statistics plugin"
+msgstr "CyStats - WordPress Statistik Plugin"
+
+#: admin/index.php:271
+msgid ""
+"You have approximately %CountFeedReaders% \n"
+"        visits to your feeds and %CountVisitors% human visitors to your website \n"
+"        today, the average bounce rate is %BounceRate%%, %CountSearchengineReferer% \n"
+"        visitors came via search engines. If you are using CyStats frequently \n"
+"        please consider making a %DonationLinkStart% donation via PayPal%DonationLinkEnd%."
+msgstr "Ihre Newsfeeds hatten heute mindestens %CountFeedReaders%  Besuche, %CountVisitors% menschliche Besucher haben Ihre Seite mit einer Bounce Rate von %BounceRate%% besucht, über Suchmaschinen kamen %CountSearchengineReferer% Besucher. Falls Sie CyStats regelmässig einsetzen würde ich mich über eine %DonationLinkStart% Spende via PayPal%DonationLinkEnd% freuen."
+
+#: admin/index.php:294
+msgid "Hits and visits"
+msgstr "Zugriffe und Besuche"
+
+#: admin/index.php:298
+msgid "Hits (without bots)"
+msgstr "Hits (ohne Bots)"
+
+#: admin/index.php:305
+msgid "Hits (bots)"
+msgstr "Hits (Bots)"
+
+#: admin/index.php:317
+msgid "Todays traffic (without bots)"
+msgstr "Heute (ohne Bots)"
+
+#: admin/index.php:329
+msgid "Todays traffic (bots)"
+msgstr "Heute (Bots)"
+
+#: admin/index.php:342
+#: admin/time.php:19
+msgid "Visits per day"
+msgstr "Besuche pro Tag"
+
+#: admin/index.php:347
+#: admin/time.php:23
+msgid "Hits per day"
+msgstr "Zugriffe pro Tag"
+
+#: admin/index.php:367
+msgid "This weeks traffic (without bots)"
+msgstr "Diese Woche (ohne Bots)"
+
+#: admin/index.php:379
+msgid "This weeks traffic (bots)"
+msgstr "Diese Woche (Bots)"
+
+#: admin/index.php:389
+msgid "This months traffic (without bots)"
+msgstr "Diesen Monat (ohne Bots)"
+
+#: admin/index.php:400
+msgid "This months traffic (bots)"
+msgstr "Diesen Monat (Bots)"
+
+#: admin/index.php:412
+msgid "This years traffic (without bots)"
+msgstr "Dieses Jahr (ohne Bots)"
+
+#: admin/index.php:424
+msgid "This years traffic (bots)"
+msgstr "Dieses Jahr (Bots)"
+
+#: admin/index.php:428
+msgid "Pages and Comments"
+msgstr "Seiten und Kommentare"
+
+#: admin/index.php:450
+msgid "Most commented posts"
+msgstr "Meistkommentierte Beiträge"
+
+#: admin/index.php:459
+msgid "Most read feeds"
+msgstr "Meistgelesene Feeds"
+
+#: admin/index.php:468
+#: includes/admin.php:17
+msgid "Referer"
+msgstr "Referer"
+
+#: admin/index.php:483
+msgid "Searchwords"
+msgstr "Suchbegriffe"
+
+#: admin/index.php:503
+msgid "External searchengine searchphrases"
+msgstr "Externe Suchmaschinenphrasen"
+
+#: admin/index.php:543
+msgid "Internal blogsearch searchphrases"
+msgstr "Bloginterne Suchphrasen"
+
+#: admin/index.php:573
+#: admin/index.php:585
+msgid "Delete searchwordstrings"
+msgstr "Suchphrasen löschen"
+
+#: admin/index.php:574
+#: admin/index.php:586
+msgid "Delete all searchword strings"
+msgstr "Löschen Sie alle gespeicherten Suchphrasen"
+
+#: admin/index.php:603
+msgid "Get more visits..."
+msgstr "Mehr..."
+
+#: admin/index.php:603
+msgid "More visits..."
+msgstr "Mehr..."
+
+#: admin/options.php:3
+msgid "CyStats Options"
+msgstr "CyStats Einstellungen"
+
+#: admin/options.php:62
+msgid "Options successfully saved"
+msgstr "Einstellungen erfolgreich gespeichert"
+
+#: admin/options.php:71
+msgid "Please check 'To be sure' checkbox for security reasons."
+msgstr "Bitte bestätigen Sie mit der 'Zur Sicherheit' Checkbox"
+
+#: admin/options.php:77
+msgid "Please choose static, live or all database table(s) to empty"
+msgstr "Bitte wählen Sie die statische und/oder die Live-Datenbanktabelle aus"
+
+#: admin/options.php:84
+msgid "Options table cleaned up"
+msgstr "Optionen-Tabelle erfolgreich aufgeräumt."
+
+#: admin/options.php:85
+msgid "Cleaning options not possible"
+msgstr "Aufräumen der Optionen-Datenbanktabelle nicht möglich"
+
+#: admin/options.php:88
+msgid "Raw data table removed"
+msgstr "Die Besuchertabelle wurde gelöscht"
+
+#: admin/options.php:89
+msgid "Removing raw data table not possible"
+msgstr "Leeren der Besucher-Datenbanktabelle nicht möglich"
+
+#: admin/options.php:91
+msgid "Static data table removed"
+msgstr "Leeren der statischen Langzeitdatenbanktabelle erfolgreich"
+
+#: admin/options.php:92
+msgid "Removing static data table not possible"
+msgstr "Leeren der Langzeit-Datenbanktabelle nicht möglich"
+
+#: admin/options.php:100
+#: admin/options.php:105
+msgid "Table now empty"
+msgstr "Datenbanktabelle wurde geleert"
+
+#: admin/options.php:101
+#: admin/options.php:106
+msgid "Cleaning table not possible"
+msgstr "Leeren der Dantenbanktabelle nicht möglich"
+
+#: admin/options.php:113
+msgid "General information"
+msgstr "Allgemeine Informationen"
+
+#: admin/options.php:114
+msgid "CyStats version"
+msgstr "CyStats Version"
+
+#: admin/options.php:116
+msgid "CyStats visits table entries"
+msgstr "Einträge in der Livedatenbanktabelle"
+
+#: admin/options.php:118
+msgid "CyStats first database entry"
+msgstr "Erster Datenbankeintrag"
+
+#: admin/options.php:120
+msgid "CyStats visits table last cleanup"
+msgstr "Letzter Aufräumzeitpunkt"
+
+#: admin/options.php:126
+msgid "Database"
+msgstr "Datenbank"
+
+#: admin/options.php:127
+msgid "Visits table timeframe"
+msgstr "Zugriffs-Datenbank-Zeitraumbegrenzung (Sek.)"
+
+#: admin/options.php:128
+msgid "Timeframe for saving visits data in seconds"
+msgstr "Zeitraum für den Zugriffsdaten i.d. Datenbank gespeichert werden sollen"
+
+#: admin/options.php:129
+msgid "Visit table cleanup interval"
+msgstr "Aufräumintervall für Zugriffs-Datenbank (Sek.)"
+
+#: admin/options.php:130
+msgid "Visits table check and cleanup interval in seconds"
+msgstr "Zeitabstand in dem die Zugrifsdatenbanktabelle aufgeräumt werden soll"
+
+#: admin/options.php:131
+msgid "Max. display hit rows"
+msgstr "Maximale Hit-Zeilenzahl"
+
+#: admin/options.php:132
+msgid "Number of hit rows to display on index page"
+msgstr "Anzahl der anzuzeigenden Hit-Zeilen der CyStats-Index-Seite"
+
+#: admin/options.php:133
+msgid "Visit deltatime"
+msgstr "Besuchsintervall (Sek.)"
+
+#: admin/options.php:134
+msgid "Number of seconds for unique visitor interval"
+msgstr "Zeitintervall in dem Zugriffe als ein Besuch gezählt werden"
+
+#: admin/options.php:140
+msgid "Statistics"
+msgstr "Statistik"
+
+#: admin/options.php:144
+msgid "Disable userlevels:"
+msgstr "Userlevel tracking"
+
+#: admin/options.php:157
+msgid "Do not track if userlevel is greater than this "
+msgstr "Keine Datenspeicherung wenn Userlevel grösser als..."
+
+#: admin/options.php:162
+msgid "Admin page statistics"
+msgstr "Adminseitenstatistiken"
+
+#: admin/options.php:163
+msgid "Logging of admin page visits"
+msgstr "Schreiben von Adminseitenbesuchen"
+
+#: admin/options.php:167
+msgid "Anonymize IP"
+msgstr "IP anonymisieren"
+
+#: admin/options.php:168
+msgid "Save IP anonymized"
+msgstr "Speichert die IP-Adresse anoymisiert"
+
+#: admin/options.php:174
+msgid "Filtering"
+msgstr "Filter"
+
+#: admin/options.php:179
+msgid "Set blocker cookie"
+msgstr "Setze Blocker-Cookie"
+
+#: admin/options.php:180
+msgid "Prevent clients with this cookie from beeing tracked by CyStats"
+msgstr "Benutzer mit diesem Cookie werden nicht gezählt"
+
+#: admin/options.php:181
+msgid "Ignore IP (xxx.xxx.xxx.xxx)"
+msgstr "IP ignorieren (xxx.xxx.xxx.xxx)"
+
+#: admin/options.php:182
+msgid "Ignore those IPs, one IP per line, wildcard (*) allowed (e.g. 192.168.1.*)"
+msgstr "Ignoriert IPs, eine IP/Zeile, Wildcard (*) erlaubt (z.B. 192.168.1.*)"
+
+#: admin/options.php:183
+msgid "Ignore User Agent (RegExp)"
+msgstr "User-Agent ignorieren"
+
+#: admin/options.php:184
+msgid "Ignore user agents matching regular expressions, one per line, delimiters needed. Example: "
+msgstr "Ignoriert UserAgents auf die die angegebenen RegExp passen (ein RegExp/Zeile, Delimiter nötig), Beispiel:"
+
+#: admin/options.php:185
+msgid "Ignore requests by page/post id"
+msgstr "Ignoriere Seiten-/Post-IDs"
+
+#: admin/options.php:186
+msgid "Ignore requests of page/post ids in this list, one id per line"
+msgstr "Anfragen an diese Seiten-/Post-IDs ignorieren, eine ID (Zahl) pro Zeile"
+
+#: admin/options.php:194
+msgid "Display"
+msgstr "Anzeige"
+
+#: admin/options.php:196
+msgid "Shorten page name"
+msgstr "Kürzung der Seitennamen"
+
+#: admin/options.php:197
+msgid "Shorten display of page name to this number of chars"
+msgstr "Die Anzeige von Seitennamen wird auf die angegebene Anzahl Buchstaben gekürzt"
+
+#: admin/options.php:199
+msgid "Shorten referer"
+msgstr "Kürzung der Referer"
+
+#: admin/options.php:200
+msgid "Shorten display of referer to this number of chars"
+msgstr "Die Anzeige von Referern wird auf die angegebene Anzahl Buchstaben gekürzt"
+
+#: admin/options.php:202
+msgid "Shorten user_agent"
+msgstr "Kürzung der USER_AGENTs"
+
+#: admin/options.php:203
+msgid "Shorten display of user_agent to this number of chars"
+msgstr "Die Anzeige von USER_AGENTs wird auf die angegebene Anzahl Buchstaben gekürzt"
+
+#: admin/options.php:205
+msgid "Add this to hits"
+msgstr "Zu Hits-Zahl addieren"
+
+#: admin/options.php:206
+msgid "Hits correction value"
+msgstr "Korrigiert Hit-Zahl"
+
+#: admin/options.php:207
+msgid "Add this to visits"
+msgstr "Zu Visits-Zahl addieren"
+
+#: admin/options.php:208
+msgid "Visits correction value"
+msgstr "Korrigiert Visit-Zahl"
+
+#: admin/options.php:213
+msgid "Save"
+msgstr "Speichern"
+
+#: admin/options.php:221
+msgid "Delete all database data"
+msgstr "Löschen aller CyStats-Daten"
+
+#: admin/options.php:222
+msgid "Delete all data stored in database including options"
+msgstr "Löschen aller in der Datenbanktabelle enthaltenen CyStats-Optionen und Statistiken"
+
+#: admin/options.php:224
+msgid "Delete live database table"
+msgstr "Leeren der Live-Datenbanktabelle"
+
+#: admin/options.php:225
+msgid "Delete all visits data stored in database"
+msgstr "Löschen aller in der Livedatenbanktabelle enthaltenen Besuchsinformationen"
+
+#: admin/options.php:226
+msgid "Delete static database table"
+msgstr "Leeren der statischen Langzeitdatenbanktabelle"
+
+#: admin/options.php:227
+msgid "Delete all static long term data stored in database"
+msgstr "Löschen Sie alle Einträge der Langzeitdatenbanktabelle"
+
+#: admin/options.php:228
+msgid "Do you really want this?"
+msgstr "Wollen Sie das wirklich tun?"
+
+#: admin/options.php:229
+msgid "To be sure"
+msgstr "Zur Sicherheit"
+
+#: admin/options.php:233
+msgid "Delete"
+msgstr "Löschen"
+
+#: admin/time.php:5
+msgid "CyStats Time/Posts"
+msgstr "CyStats Zeitübersicht/Beiträge"
+
+#: admin/time.php:13
+msgid "CyStats Time"
+msgstr "CyStats Zeitübersicht"
+
+#: admin/time.php:30
+msgid "Visits per hour (live database table)"
+msgstr "Besuche pro Stunde (Live Datenbanktabelle)"
+
+#: admin/time.php:36
+msgid "Visits per weekday (live database table)"
+msgstr "Besuche pro Wochentag (Live Datenbanktabelle)"
+
+#: admin/time.php:43
+msgid "Visits per week"
+msgstr "Besuche pro Woche"
+
+#: admin/time.php:48
+msgid "Hits per week"
+msgstr "Zugriffe pro Woche"
+
+#: admin/time.php:57
+msgid "Visits per month"
+msgstr "Besuche pro Monat"
+
+#: admin/time.php:62
+msgid "Hits per month"
+msgstr "Zugriffe pro Monat"
+
+#: admin/time.php:68
+msgid "Visits per year"
+msgstr "Besuche pro Jahr"
+
+#: admin/time.php:73
+msgid "Hits per year"
+msgstr "Zugriffe pro Jahr"
+
+#: includes/view.class.php:209
+msgid "Sunday"
+msgstr "Sonntag"
+
+#: includes/view.class.php:210
+msgid "Monday"
+msgstr "Montag"
+
+#: includes/view.class.php:211
+msgid "Tuesday"
+msgstr "Dienstag"
+
+#: includes/view.class.php:212
+msgid "Wednesday"
+msgstr "Mittwoch"
+
+#: includes/view.class.php:213
+msgid "Thursday"
+msgstr "Donnerstag"
+
+#: includes/view.class.php:214
+msgid "Friday"
+msgstr "Freitag"
+
+#: includes/view.class.php:215
+msgid "Saturday"
+msgstr "Samstag"
+
+#: includes/view.class.php:218
+msgid "HOME is the webite main page"
+msgstr "HOME ist die Starteite"
+
+#: includes/view.class.php:219
+msgid "SINGLE is a single WordPress post"
+msgstr "SINGLE ist ein einzelner Beitrag"
+
+#: includes/view.class.php:220
+msgid "PAGE is a single WordPress page"
+msgstr "PAGE ist eine einzelne WordPress Seite"
+
+#: includes/view.class.php:221
+msgid "CATEGORY is a category overview page"
+msgstr "CATEGORY ist eine Kategorienübersicht"
+
+#: includes/view.class.php:222
+msgid "AUTHOR is a WordPress author information page"
+msgstr "AUTHOR ist eine WordPress Autoreninformationsseite"
+
+#: includes/view.class.php:223
+msgid "YEAR is a WordPress yearly archive page"
+msgstr "YEAR ist ein Jahresarchiv"
+
+#: includes/view.class.php:224
+msgid "MONTH is a WordPress monthly archive page"
+msgstr "MONTH ist ein Monatsarchiv"
+
+#: includes/view.class.php:225
+msgid "DAY is a WordPress daily archive page"
+msgstr "DAY ist ein Tagesarchiv"
+
+#: includes/view.class.php:226
+msgid "TIME is a WordPress time based archive page"
+msgstr "TIME ist ein zeitbasierendes Archiv"
+
+#: includes/view.class.php:227
+msgid "ARCHIVE is a WordPress generic archive page"
+msgstr "ARCHIVE it eine Archivseite"
+
+#: includes/view.class.php:228
+msgid "SEARCH is the WordPress search result page"
+msgstr "SEARCH ist die WordPress Suchergebnisseite"
+
+#: includes/view.class.php:229
+msgid "404 is a 'HTTP 404 Not Found' error page"
+msgstr "404 ist eine 'HTTP 404 Nicht gefunden' Fehlerseite"
+
+#: includes/view.class.php:230
+msgid "FEED is a WordPress newsfeed"
+msgstr "FEED ist ein WordPress Nachrichtenfeed"
+
+#: includes/view.class.php:231
+msgid "ATTACHMENT is a WordPress attachment"
+msgstr "ATTACHMENT ist ein WordPress Anhang"
+
+#: includes/view.class.php:232
+msgid "TRACKBACK is a WordPress trackback"
+msgstr "TRACKBACK ist das WordPress Trackback-empfangen-Script "
+
+#: includes/view.class.php:233
+msgid "UNKNOWN_HTTP_METHOD_GET is a unknown page requeted via method HTTP_GET"
+msgstr "UNKNOWN_HTTP_METHOD_GET ist eine unbekannte via HTTP-Methode GET angeforderte Seite"
+
+#: includes/view.class.php:234
+msgid "ADMIN is a WordPress admin panel page"
+msgstr "ADMIN ist eine WordPress Adminseite"
+
+#: includes/view.class.php:440
+#: includes/view.class.php:811
+msgid "Visit refering page"
+msgstr "Besuche Herkunftsseite"
+
+#: includes/view.class.php:461
+#: includes/view.class.php:463
+msgid "Visit this page"
+msgstr "Besuche Herkunftsseite"
+
+#: includes/view.class.php:467
+#: includes/view.class.php:473
+msgid "Main page"
+msgstr "Startseite"
+
+#: includes/view.class.php:472
+msgid "Go to called page"
+msgstr "Aufrufende Seite besuchen"
+
+#: includes/view.class.php:602
+msgid "Posts/Date"
+msgstr "Zeitübersicht/Beiträge"
+
+#: includes/view.class.php:818
+msgid "No database entries"
+msgstr "Keine Datenbankeinträge"
+
+#: includes/view.class.php:910
+msgid "Hits"
+msgstr "Hits"
+
+#: includes/view.class.php:911
+msgid "Unique visits"
+msgstr "Besucher"
+
+#: includes/view.class.php:953
+msgid "Last value"
+msgstr "Letzter Wert"
+
+#: includes/view.class.php:1208
+msgid "item_unknown_guests"
+msgstr "Unbekannt"
+
+#: includes/admin.php:14
+msgid "CyStats: Index"
+msgstr "CyStats Index"
+
+#: includes/admin.php:14
+msgid "Index"
+msgstr "Index"
+
+#: includes/admin.php:15
+msgid "CyStats: Blog"
+msgstr "CyStats Blog"
+
+#: includes/admin.php:15
+msgid "Blog"
+msgstr "Blog"
+
+#: includes/admin.php:16
+msgid "CyStats: Clients"
+msgstr "CyStats Clients"
+
+#: includes/admin.php:16
+msgid "Clients"
+msgstr "Clients"
+
+#: includes/admin.php:17
+msgid "CyStats: Referer"
+msgstr "CyStats Referer"
+
+#: includes/admin.php:18
+#, fuzzy
+msgid "CyStats: Robots &amp; Tools"
+msgstr "CyStats Robots & Tools"
+
+#: includes/admin.php:18
+msgid "Robots/Tools"
+msgstr "Robots & Tools"
+
+#: includes/admin.php:19
+msgid "CyStats: Pages"
+msgstr "CyStats Seiten"
+
+#: includes/admin.php:19
+msgid "Pages"
+msgstr "Seiten"
+
+#: includes/admin.php:20
+msgid "CyStats: Time"
+msgstr "CyStats Zeitübersicht"
+
+#: includes/admin.php:20
+msgid "Time"
+msgstr "Zeit"
+
+#: includes/admin.php:21
+msgid "CyStats: Options"
+msgstr "CyStats Einstellungen"
+
+#: includes/admin.php:21
+msgid "Options"
+msgstr "Einstellungen"
+
+#: includes/admin.php:88
+msgid "Access denied"
+msgstr "Zugriff verweigert"
+
+#: includes/admin.php:91
+msgid "You do not have the required userlevel to access the cystats administration area."
+msgstr "Sie besitzen nicht den erforderlicher Userlevel um den CyStats Adminbereich zu betreten."
+
+#~ msgid "CyStats: Clients &amp; Robots"
+#~ msgstr "CyStats Robots & Tools"
+#~ msgid "Clients and robots"
+#~ msgstr "Clients und Robots"
+#~ msgid "Most read tags"
+#~ msgstr "Meistgelesene Tags"
+#~ msgid "Most read categories"
+#~ msgstr "Meistgelesene Kategorien"
+#~ msgid "Time offset (hours)"
+#~ msgstr "Zeitkorrektur (Stunden)"
+#~ msgid "Add this (hours) to displayed time"
+#~ msgstr "Addiere Anzahl Stunden zur angezeigten Zeit"
+#~ msgid "CyStats Feeds"
+#~ msgstr "CyStats Feeds"
+#~ msgid "Feed reading remote adresses"
+#~ msgstr "Feedleser IPs/gesamt"
+#~ msgid "Unique feed reading remote_adresses today"
+#~ msgstr "Feedleser IPs/heute"
+#~ msgid "Most visited posts"
+#~ msgstr "Meistbesuchte Beiträge"
+#~ msgid "Posts"
+#~ msgstr "Beiträge"
+#~ msgid "Users"
+#~ msgstr "Benutzer"
+#~ msgid "Authors"
+#~ msgstr "Autoren"
+#~ msgid "Links"
+#~ msgstr "Links"
+#~ msgid "CyStats Search"
+#~ msgstr "CyStats Suchphrasen"
+#~ msgid "CyStats About"
+#~ msgstr "CyStats Über"
+#~ msgid ""
+#~ "CyStats is developed by one person only. Since I would like to provide "
+#~ "multi language support for CyStats I have to ask for your help. If you "
+#~ "like and use CyStats, have some spare time, speak a nice language and "
+#~ "know how to use/edit language files (e.g. using poEdit) I'd appreciate "
+#~ "any help with translating CyStats."
+#~ msgstr ""
+#~ "An CyStats wird von mir als einzigen Entwickler gebastelt. Um CyStats in "
+#~ "möglichst vielen Sprachen anbieten zu können bin ich natürlich auf Hilfe "
+#~ "angewiesen. Wenn Sie also CyStats einsetzen und etwas Zeit, "
+#~ "Sprachkenntnisse und Sympathie für CyStats übrig haben und wissen wie man "
+#~ "mit den Sprachdateien umgeht würde ich mich sehr über Hilfe bei der "
+#~ "Übersetzung in Sprachen neben Deutsch und Englisch freuen."
+#~ msgid ""
+#~ "If you finde some bug, get error messages or have a feature request "
+#~ "please send me an email to foren [ @t ] cywhale.de (replace '  [ @t ] ' "
+#~ "with '@' or send  a message using the contact form at "
+#~ msgstr ""
+#~ "Wenn Sie Bugs bemerken, Fehlermeldungen erhalten oder das eine oder "
+#~ "andere neue Feature gerne sehen würden schicken Sie einfach eine Mail an "
+#~ "foren [ @t ] cywhale.de (' [ @t ] ' mit dem korrekten '@' ersetzen) oder "
+#~ "benutzen Sie das Kontaktformular auf "
+#~ msgid ""
+#~ "If you want to say 'thank you' - just go ahead, I'd appreciate it. Send "
+#~ "me a mail, write to some CyStats forum posts and if you really, really "
+#~ "like CyStats (or me)\n"
+#~ "there are two paypal buttons which *could* be used by you."
+#~ msgstr ""
+#~ "Wenn Sie einfach 'Danke' sagen wollen - nur zu, darüber freue ich mich "
+#~ "immer mächtig. Schreiben Sie eine Mail, beteiligen Sie sich an CyStats-"
+#~ "Threads in einem Forum wenn Sie über einen Stolpern und wenn Sie CyStats "
+#~ "so richtig, richtig gut finden gibt es hier (nur für den Fall der Fälle) "
+#~ "auch zwei PayPal-Buttons die Sie benutzen *können*."
+#~ msgid ""
+#~ "Since the initial release of CyStats there have been many nice people who "
+#~ "tried to help providing error messages, feature requests, bug reports and "
+#~ "kindly helped locating some bugs. This is the place I want to thank all "
+#~ "of them (including those I forgot to mention, sorry for that, just send "
+#~ "me a mail):"
+#~ msgstr ""
+#~ "Seit der ersten CyStats-Veröffentlichung gab und gibt es viele Menschen "
+#~ "die auf die eine oder andere Weise mit Fehlermeldungen, Feature-Requests "
+#~ "oder Bug-Reports und Bugtracking geholfen haben, diesen Menschen möchte "
+#~ "ich hier und jetzt danken (und allen die ich in dieser Liste vergessen "
+#~ "habe, Verzeihung, schickt mir einfach eine Nachricht):"
+#~ msgid "Screen resolution"
+#~ msgstr "Bildschirmauflösung"
+#~ msgid "Client window width"
+#~ msgstr "Fensterbreite"
+#~ msgid "Client window height"
+#~ msgstr "Fensterhöhe"
+#~ msgid "Colordepth"
+#~ msgstr "Farbtiefe"
+#~ msgid "CyStats All Visits"
+#~ msgstr "CyStats Zugriffe"
+#~ msgid "Javascript statistics"
+#~ msgstr "Javascriptstatistiken"
+#~ msgid "Logging javascript parameters, e.g. screen resolution"
+#~ msgstr ""
+#~ "Schreiben von Javascript-Daten, z.B. Bildschirmauflösung und Farbtiefe"
+#~ msgid "Local refering pages"
+#~ msgstr "Logging lokaler Referer"
+#~ msgid "Logging local refering pages, saves database space if not enabled"
+#~ msgstr ""
+#~ "Schreiben lokaler Referer (spart Datenbankspeicher wenn nicht aktiviert)"
+#~ msgid "CyStats: Search"
+#~ msgstr "CyStats Suchphrasen"
+#~ msgid "CyStats: Feeds"
+#~ msgstr "CyStats Feeds"
+#~ msgid "Feeds"
+#~ msgstr "Feeds"
+#~ msgid "CyStats: About"
+#~ msgstr "CyStats Über"
+#~ msgid "About"
+#~ msgstr "Über"
+

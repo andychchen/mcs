@@ -1,0 +1,842 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-10-23 17:11+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: admin/clients.php:3
+msgid "CyStats Clients"
+msgstr ""
+
+#: admin/clients.php:9 admin/clients.php:33
+msgid "Operating system"
+msgstr ""
+
+#: admin/clients.php:16 admin/clients.php:28
+msgid "Browser"
+msgstr ""
+
+#: admin/clients.php:22 admin/clients.php:41
+msgid "Browser versions"
+msgstr ""
+
+#: admin/clients.php:28 admin/clients.php:33 admin/clients.php:41
+msgid "More..."
+msgstr ""
+
+#: admin/clients.php:48 admin/robots.php:19
+msgid "Tools & Scripts"
+msgstr ""
+
+#: admin/clients.php:53 admin/robots.php:3
+msgid "CyStats Robots & Tools"
+msgstr ""
+
+#: admin/clients.php:58 admin/robots.php:8
+msgid "Searchengines"
+msgstr ""
+
+#: admin/clients.php:62 admin/robots.php:12
+msgid "Email / Feedreader"
+msgstr ""
+
+#: admin/clients.php:69 admin/robots.php:23
+msgid "Unknown user agents"
+msgstr ""
+
+#: admin/pages.php:3
+msgid "CyStats Pages"
+msgstr ""
+
+#: admin/pages.php:9 admin/index.php:433
+msgid "Most visited blogpages today"
+msgstr ""
+
+#: admin/pages.php:16 admin/index.php:439
+msgid "Most visited blogpages"
+msgstr ""
+
+#: admin/pages.php:23
+msgid "Entrypages"
+msgstr ""
+
+#: admin/pages.php:30
+msgid "404 error pages"
+msgstr ""
+
+#: admin/pages.php:36
+msgid "Pagetypes"
+msgstr ""
+
+#: admin/referer.php:4 admin/index.php:7
+msgid "CyStats External Referer"
+msgstr ""
+
+#: admin/referer.php:24 admin/referer.php:57 admin/referer.php:89
+#: admin/referer.php:122 admin/index.php:27 admin/index.php:60
+#: admin/index.php:92 admin/index.php:125 admin/index.php:160
+msgid "Page navigation"
+msgstr ""
+
+#: admin/referer.php:29 admin/referer.php:62 admin/referer.php:94
+#: admin/referer.php:127 admin/index.php:32 admin/index.php:65
+#: admin/index.php:97 admin/index.php:130 admin/index.php:165
+msgid "Visit page"
+msgstr ""
+
+#: admin/referer.php:33 admin/referer.php:147 admin/index.php:36
+msgid "External referer"
+msgstr ""
+
+#: admin/referer.php:37 admin/index.php:40
+msgid "CyStats Searchengine Referer"
+msgstr ""
+
+#: admin/referer.php:66 admin/referer.php:150 admin/index.php:69
+msgid "Searchengine referer"
+msgstr ""
+
+#: admin/referer.php:69 admin/index.php:72
+msgid "CyStats Referer Today"
+msgstr ""
+
+#: admin/referer.php:98 admin/referer.php:131 admin/referer.php:138
+#: admin/index.php:101 admin/index.php:134 admin/index.php:471
+msgid "Referer today"
+msgstr ""
+
+#: admin/referer.php:102 admin/index.php:105
+msgid "CyStats Referer Yesterday"
+msgstr ""
+
+#: admin/referer.php:135
+msgid "CyStats Referer"
+msgstr ""
+
+#: admin/referer.php:138 admin/referer.php:143 admin/referer.php:147
+#: admin/referer.php:150 admin/index.php:471 admin/index.php:476
+msgid "Get more referers..."
+msgstr ""
+
+#: admin/referer.php:138 admin/referer.php:143 admin/referer.php:147
+#: admin/referer.php:150 admin/index.php:471 admin/index.php:476
+msgid "More referers..."
+msgstr ""
+
+#: admin/referer.php:143 admin/index.php:476
+msgid "Referer yesterday"
+msgstr ""
+
+#: admin/referer.php:157
+msgid "Internal referer"
+msgstr ""
+
+#: admin/blog.php:3
+msgid "CyStats Blog"
+msgstr ""
+
+#: admin/blog.php:8
+msgid "Recent commented posts"
+msgstr ""
+
+#: admin/blog.php:18
+msgid "Most active comment authors"
+msgstr ""
+
+#: admin/blog.php:30
+msgid "Tags"
+msgstr ""
+
+#: admin/blog.php:34
+msgid "Categories"
+msgstr ""
+
+#: admin/blog.php:41
+msgid "Database statistics"
+msgstr ""
+
+#: admin/blog.php:46
+msgid "Rows"
+msgstr ""
+
+#: admin/blog.php:47
+msgid "Avg. row length"
+msgstr ""
+
+#: admin/blog.php:48
+msgid "Data length"
+msgstr ""
+
+#: admin/blog.php:49
+msgid "Index length"
+msgstr ""
+
+#: admin/blog.php:50
+msgid "Reserved length"
+msgstr ""
+
+#: admin/index.php:138
+msgid "Visits history"
+msgstr ""
+
+#: admin/index.php:173 admin/index.php:603
+msgid "Last hits"
+msgstr ""
+
+#: admin/index.php:185 admin/index.php:199
+msgid "Searchstrings successfully deleted"
+msgstr ""
+
+#: admin/index.php:188 admin/index.php:202
+msgid "Nothing deleted"
+msgstr ""
+
+#: admin/index.php:206
+msgid "CyStats Index"
+msgstr ""
+
+#: admin/index.php:212
+msgid "Blog information"
+msgstr ""
+
+#: admin/index.php:216
+msgid "First post date"
+msgstr ""
+
+#: admin/index.php:220
+msgid "Days since first post"
+msgstr ""
+
+#: admin/index.php:225
+msgid "Avg. posts per day"
+msgstr ""
+
+#: admin/index.php:229
+msgid "Avg. comments per day"
+msgstr ""
+
+#: admin/index.php:255
+msgid "Welcome to CyStats - a WordPress statistics plugin"
+msgstr ""
+
+#: admin/index.php:271
+msgid ""
+"You have approximately %CountFeedReaders% \n"
+"        visits to your feeds and %CountVisitors% human visitors to your "
+"website \n"
+"        today, the average bounce rate is %BounceRate%%, %"
+"CountSearchengineReferer% \n"
+"        visitors came via search engines. If you are using CyStats "
+"frequently \n"
+"        please consider making a %DonationLinkStart% donation via PayPal%"
+"DonationLinkEnd%."
+msgstr ""
+
+#: admin/index.php:294
+msgid "Hits and visits"
+msgstr ""
+
+#: admin/index.php:298
+msgid "Hits (without bots)"
+msgstr ""
+
+#: admin/index.php:305
+msgid "Hits (bots)"
+msgstr ""
+
+#: admin/index.php:317
+msgid "Todays traffic (without bots)"
+msgstr ""
+
+#: admin/index.php:329
+msgid "Todays traffic (bots)"
+msgstr ""
+
+#: admin/index.php:342 admin/time.php:19
+msgid "Visits per day"
+msgstr ""
+
+#: admin/index.php:347 admin/time.php:23
+msgid "Hits per day"
+msgstr ""
+
+#: admin/index.php:367
+msgid "This weeks traffic (without bots)"
+msgstr ""
+
+#: admin/index.php:379
+msgid "This weeks traffic (bots)"
+msgstr ""
+
+#: admin/index.php:389
+msgid "This months traffic (without bots)"
+msgstr ""
+
+#: admin/index.php:400
+msgid "This months traffic (bots)"
+msgstr ""
+
+#: admin/index.php:412
+msgid "This years traffic (without bots)"
+msgstr ""
+
+#: admin/index.php:424
+msgid "This years traffic (bots)"
+msgstr ""
+
+#: admin/index.php:428
+msgid "Pages and Comments"
+msgstr ""
+
+#: admin/index.php:450
+msgid "Most commented posts"
+msgstr ""
+
+#: admin/index.php:459
+msgid "Most read feeds"
+msgstr ""
+
+#: admin/index.php:468 includes/admin.php:17
+msgid "Referer"
+msgstr ""
+
+#: admin/index.php:483
+msgid "Searchwords"
+msgstr ""
+
+#: admin/index.php:503
+msgid "External searchengine searchphrases"
+msgstr ""
+
+#: admin/index.php:543
+msgid "Internal blogsearch searchphrases"
+msgstr ""
+
+#: admin/index.php:573 admin/index.php:585
+msgid "Delete searchwordstrings"
+msgstr ""
+
+#: admin/index.php:574 admin/index.php:586
+msgid "Delete all searchword strings"
+msgstr ""
+
+#: admin/index.php:603
+msgid "Get more visits..."
+msgstr ""
+
+#: admin/index.php:603
+msgid "More visits..."
+msgstr ""
+
+#: admin/options.php:3
+msgid "CyStats Options"
+msgstr ""
+
+#: admin/options.php:62
+msgid "Options successfully saved"
+msgstr ""
+
+#: admin/options.php:71
+msgid "Please check 'To be sure' checkbox for security reasons."
+msgstr ""
+
+#: admin/options.php:77
+msgid "Please choose static, live or all database table(s) to empty"
+msgstr ""
+
+#: admin/options.php:84
+msgid "Options table cleaned up"
+msgstr ""
+
+#: admin/options.php:85
+msgid "Cleaning options not possible"
+msgstr ""
+
+#: admin/options.php:88
+msgid "Raw data table removed"
+msgstr ""
+
+#: admin/options.php:89
+msgid "Removing raw data table not possible"
+msgstr ""
+
+#: admin/options.php:91
+msgid "Static data table removed"
+msgstr ""
+
+#: admin/options.php:92
+msgid "Removing static data table not possible"
+msgstr ""
+
+#: admin/options.php:100 admin/options.php:105
+msgid "Table now empty"
+msgstr ""
+
+#: admin/options.php:101 admin/options.php:106
+msgid "Cleaning table not possible"
+msgstr ""
+
+#: admin/options.php:113
+msgid "General information"
+msgstr ""
+
+#: admin/options.php:114
+msgid "CyStats version"
+msgstr ""
+
+#: admin/options.php:116
+msgid "CyStats visits table entries"
+msgstr ""
+
+#: admin/options.php:118
+msgid "CyStats first database entry"
+msgstr ""
+
+#: admin/options.php:120
+msgid "CyStats visits table last cleanup"
+msgstr ""
+
+#: admin/options.php:126
+msgid "Database"
+msgstr ""
+
+#: admin/options.php:127
+msgid "Visits table timeframe"
+msgstr ""
+
+#: admin/options.php:128
+msgid "Timeframe for saving visits data in seconds"
+msgstr ""
+
+#: admin/options.php:129
+msgid "Visit table cleanup interval"
+msgstr ""
+
+#: admin/options.php:130
+msgid "Visits table check and cleanup interval in seconds"
+msgstr ""
+
+#: admin/options.php:131
+msgid "Max. display hit rows"
+msgstr ""
+
+#: admin/options.php:132
+msgid "Number of hit rows to display on index page"
+msgstr ""
+
+#: admin/options.php:133
+msgid "Visit deltatime"
+msgstr ""
+
+#: admin/options.php:134
+msgid "Number of seconds for unique visitor interval"
+msgstr ""
+
+#: admin/options.php:140
+msgid "Statistics"
+msgstr ""
+
+#: admin/options.php:144
+msgid "Disable userlevels:"
+msgstr ""
+
+#: admin/options.php:157
+msgid "Do not track if userlevel is greater than this "
+msgstr ""
+
+#: admin/options.php:162
+msgid "Admin page statistics"
+msgstr ""
+
+#: admin/options.php:163
+msgid "Logging of admin page visits"
+msgstr ""
+
+#: admin/options.php:167
+msgid "Anonymize IP"
+msgstr ""
+
+#: admin/options.php:168
+msgid "Save IP anonymized"
+msgstr ""
+
+#: admin/options.php:174
+msgid "Filtering"
+msgstr ""
+
+#: admin/options.php:179
+msgid "Set blocker cookie"
+msgstr ""
+
+#: admin/options.php:180
+msgid "Prevent clients with this cookie from beeing tracked by CyStats"
+msgstr ""
+
+#: admin/options.php:181
+msgid "Ignore IP (xxx.xxx.xxx.xxx)"
+msgstr ""
+
+#: admin/options.php:182
+msgid ""
+"Ignore those IPs, one IP per line, wildcard (*) allowed (e.g. 192.168.1.*)"
+msgstr ""
+
+#: admin/options.php:183
+msgid "Ignore User Agent (RegExp)"
+msgstr ""
+
+#: admin/options.php:184
+msgid ""
+"Ignore user agents matching regular expressions, one per line, delimiters "
+"needed. Example: "
+msgstr ""
+
+#: admin/options.php:185
+msgid "Ignore requests by page/post id"
+msgstr ""
+
+#: admin/options.php:186
+msgid "Ignore requests of page/post ids in this list, one id per line"
+msgstr ""
+
+#: admin/options.php:194
+msgid "Display"
+msgstr ""
+
+#: admin/options.php:196
+msgid "Shorten page name"
+msgstr ""
+
+#: admin/options.php:197
+msgid "Shorten display of page name to this number of chars"
+msgstr ""
+
+#: admin/options.php:199
+msgid "Shorten referer"
+msgstr ""
+
+#: admin/options.php:200
+msgid "Shorten display of referer to this number of chars"
+msgstr ""
+
+#: admin/options.php:202
+msgid "Shorten user_agent"
+msgstr ""
+
+#: admin/options.php:203
+msgid "Shorten display of user_agent to this number of chars"
+msgstr ""
+
+#: admin/options.php:205
+msgid "Add this to hits"
+msgstr ""
+
+#: admin/options.php:206
+msgid "Hits correction value"
+msgstr ""
+
+#: admin/options.php:207
+msgid "Add this to visits"
+msgstr ""
+
+#: admin/options.php:208
+msgid "Visits correction value"
+msgstr ""
+
+#: admin/options.php:213
+msgid "Save"
+msgstr ""
+
+#: admin/options.php:221
+msgid "Delete all database data"
+msgstr ""
+
+#: admin/options.php:222
+msgid "Delete all data stored in database including options"
+msgstr ""
+
+#: admin/options.php:224
+msgid "Delete live database table"
+msgstr ""
+
+#: admin/options.php:225
+msgid "Delete all visits data stored in database"
+msgstr ""
+
+#: admin/options.php:226
+msgid "Delete static database table"
+msgstr ""
+
+#: admin/options.php:227
+msgid "Delete all static long term data stored in database"
+msgstr ""
+
+#: admin/options.php:228
+msgid "Do you really want this?"
+msgstr ""
+
+#: admin/options.php:229
+msgid "To be sure"
+msgstr ""
+
+#: admin/options.php:233
+msgid "Delete"
+msgstr ""
+
+#: admin/time.php:5
+msgid "CyStats Time/Posts"
+msgstr ""
+
+#: admin/time.php:13
+msgid "CyStats Time"
+msgstr ""
+
+#: admin/time.php:30
+msgid "Visits per hour (live database table)"
+msgstr ""
+
+#: admin/time.php:36
+msgid "Visits per weekday (live database table)"
+msgstr ""
+
+#: admin/time.php:43
+msgid "Visits per week"
+msgstr ""
+
+#: admin/time.php:48
+msgid "Hits per week"
+msgstr ""
+
+#: admin/time.php:57
+msgid "Visits per month"
+msgstr ""
+
+#: admin/time.php:62
+msgid "Hits per month"
+msgstr ""
+
+#: admin/time.php:68
+msgid "Visits per year"
+msgstr ""
+
+#: admin/time.php:73
+msgid "Hits per year"
+msgstr ""
+
+#: includes/view.class.php:209
+msgid "Sunday"
+msgstr ""
+
+#: includes/view.class.php:210
+msgid "Monday"
+msgstr ""
+
+#: includes/view.class.php:211
+msgid "Tuesday"
+msgstr ""
+
+#: includes/view.class.php:212
+msgid "Wednesday"
+msgstr ""
+
+#: includes/view.class.php:213
+msgid "Thursday"
+msgstr ""
+
+#: includes/view.class.php:214
+msgid "Friday"
+msgstr ""
+
+#: includes/view.class.php:215
+msgid "Saturday"
+msgstr ""
+
+#: includes/view.class.php:218
+msgid "HOME is the webite main page"
+msgstr ""
+
+#: includes/view.class.php:219
+msgid "SINGLE is a single WordPress post"
+msgstr ""
+
+#: includes/view.class.php:220
+msgid "PAGE is a single WordPress page"
+msgstr ""
+
+#: includes/view.class.php:221
+msgid "CATEGORY is a category overview page"
+msgstr ""
+
+#: includes/view.class.php:222
+msgid "AUTHOR is a WordPress author information page"
+msgstr ""
+
+#: includes/view.class.php:223
+msgid "YEAR is a WordPress yearly archive page"
+msgstr ""
+
+#: includes/view.class.php:224
+msgid "MONTH is a WordPress monthly archive page"
+msgstr ""
+
+#: includes/view.class.php:225
+msgid "DAY is a WordPress daily archive page"
+msgstr ""
+
+#: includes/view.class.php:226
+msgid "TIME is a WordPress time based archive page"
+msgstr ""
+
+#: includes/view.class.php:227
+msgid "ARCHIVE is a WordPress generic archive page"
+msgstr ""
+
+#: includes/view.class.php:228
+msgid "SEARCH is the WordPress search result page"
+msgstr ""
+
+#: includes/view.class.php:229
+msgid "404 is a 'HTTP 404 Not Found' error page"
+msgstr ""
+
+#: includes/view.class.php:230
+msgid "FEED is a WordPress newsfeed"
+msgstr ""
+
+#: includes/view.class.php:231
+msgid "ATTACHMENT is a WordPress attachment"
+msgstr ""
+
+#: includes/view.class.php:232
+msgid "TRACKBACK is a WordPress trackback"
+msgstr ""
+
+#: includes/view.class.php:233
+msgid "UNKNOWN_HTTP_METHOD_GET is a unknown page requeted via method HTTP_GET"
+msgstr ""
+
+#: includes/view.class.php:234
+msgid "ADMIN is a WordPress admin panel page"
+msgstr ""
+
+#: includes/view.class.php:440 includes/view.class.php:811
+msgid "Visit refering page"
+msgstr ""
+
+#: includes/view.class.php:461 includes/view.class.php:463
+msgid "Visit this page"
+msgstr ""
+
+#: includes/view.class.php:467 includes/view.class.php:473
+msgid "Main page"
+msgstr ""
+
+#: includes/view.class.php:472
+msgid "Go to called page"
+msgstr ""
+
+#: includes/view.class.php:602
+msgid "Posts/Date"
+msgstr ""
+
+#: includes/view.class.php:818
+msgid "No database entries"
+msgstr ""
+
+#: includes/view.class.php:910
+msgid "Hits"
+msgstr ""
+
+#: includes/view.class.php:911
+msgid "Unique visits"
+msgstr ""
+
+#: includes/view.class.php:953
+msgid "Last value"
+msgstr ""
+
+#: includes/view.class.php:1208
+msgid "item_unknown_guests"
+msgstr ""
+
+#: includes/admin.php:14
+msgid "CyStats: Index"
+msgstr ""
+
+#: includes/admin.php:14
+msgid "Index"
+msgstr ""
+
+#: includes/admin.php:15
+msgid "CyStats: Blog"
+msgstr ""
+
+#: includes/admin.php:15
+msgid "Blog"
+msgstr ""
+
+#: includes/admin.php:16
+msgid "CyStats: Clients"
+msgstr ""
+
+#: includes/admin.php:16
+msgid "Clients"
+msgstr ""
+
+#: includes/admin.php:17
+msgid "CyStats: Referer"
+msgstr ""
+
+#: includes/admin.php:18
+msgid "CyStats: Robots &amp; Tools"
+msgstr ""
+
+#: includes/admin.php:18
+msgid "Robots/Tools"
+msgstr ""
+
+#: includes/admin.php:19
+msgid "CyStats: Pages"
+msgstr ""
+
+#: includes/admin.php:19
+msgid "Pages"
+msgstr ""
+
+#: includes/admin.php:20
+msgid "CyStats: Time"
+msgstr ""
+
+#: includes/admin.php:20
+msgid "Time"
+msgstr ""
+
+#: includes/admin.php:21
+msgid "CyStats: Options"
+msgstr ""
+
+#: includes/admin.php:21
+msgid "Options"
+msgstr ""
+
+#: includes/admin.php:88
+msgid "Access denied"
+msgstr ""
+
+#: includes/admin.php:91
+msgid ""
+"You do not have the required userlevel to access the cystats administration "
+"area."
+msgstr ""

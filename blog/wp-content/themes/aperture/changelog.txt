@@ -1,0 +1,26 @@
+*** Aperture Changelog ***
+
+2009.05.11 - version 1.1
+  * functions and includes folder file structure changes and updates 
+  * custom.php - renamed to admin-custom.php
+  * functions/admin-interface.php - revert back to old upload scymatics, added javascript try and catch on page specific elemets ("show" bug)
+  * includes/theme-options.php - Amended woo custom box
+  * includes/js/pngfix.js - removed (ie "expected" bug)
+  * includes/js/DD_belatedPNG_0.0.7a-min.js.js - added as png management
+  * header.php - added png managemant references
+  * functions.php - correcterd file name references	
+  * style.css - added display styles to image .thumbnail class
+
+
+2009.05.07 - version 1.0.2
+  * includes/theme-options.php - Removed duplicated blog permalink field
+  * archive.php, search.php, template-blog.php - pagination fix
+  * style.css - added styling for pagenavi plugin (under pagination comment)
+
+2009.04.29 - version 1.0.1
+  * includes/featured.php - Fixed subscribe button linkage
+  * style.css - class added .rss_subscribe
+  * index.php - Converted category link argument to string
+
+2009.04.28 - version 1.0.0
+  * First release!

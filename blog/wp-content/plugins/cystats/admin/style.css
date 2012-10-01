@@ -1,0 +1,274 @@
+#generalstats td{
+    text-align:right;
+}
+
+th.cystats a{
+    text-decoration:none;
+    font-weight:normal;
+    border:none;
+    color:#fff;
+    background-color:transparent;
+    }
+th.cystats a:hover{
+    text-decoration:underline;
+}
+
+table.cystats
+{
+    width: 100%;
+    background-color: #fafafa;
+    border-collapse: collapse;
+    border-spacing: 0px;
+    margin-bottom:30px;
+    }
+
+
+th.cystats
+{
+    background-color: #fff;
+    border-bottom: 1px #a4a4a4 solid;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 1em;
+    color: #000;
+    text-indent:5px;
+    height:30px;
+    background-color:#0d324f;
+    border-bottom:5px solid #83b4d8;
+    border-top:2px solid #4384a8;
+    color:#fff;
+    white-space:nowrap;
+}
+
+
+td.cystats0
+{
+    border-top: 1px #6699CC dotted;
+    text-align: left;
+    font-family: Arial, sans-serif;
+    font-weight: normal;
+    font-size: .8em;
+    color: #404040;
+    background-color: #f8f8f8;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 4px;
+    padding-right: 8px;
+    border-left:1px dotted #d4d4d4;
+    white-space:nowrap;
+}
+
+td.cystats1
+{ 
+    border-top: 1px #6699CC dotted;
+    text-align: left;
+    font-family: Arial, sans-serif;
+    font-weight: normal;
+    font-size: .8em;
+    color: #404040;
+    background-color: #fdfdff;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 4px;
+    padding-right: 8px;
+    border-left:1px dotted #d4d4d4;
+}
+td.cystatsraw-pages{
+    border:none;
+    font-family: Arial, sans-serif;
+    font-weight: normal;
+    font-size: .8em;
+    color: #404040;
+    background:transparent;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 4px;
+    padding-right: 8px;
+}
+
+td.cystatsraw-last-visits{
+    border:none;
+    font-family: Arial, sans-serif;
+    font-weight: normal;
+    font-size: .8em;
+    color: #404040;
+    background:#EDFDE6;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 4px;
+    padding-right: 8px;
+}
+
+.td-bold0{
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 1em;
+    text-align: left;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 4px;
+    padding-right: 8px;
+    border-left:1px dotted #d4d4d4;
+    background-color: #f8f8f8;
+}
+.td-bold1{
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 1em;
+    text-align: left;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 4px;
+    padding-right: 8px;
+    border-left:1px dotted #d4d4d4;
+ background-color: #fdfdff;
+}
+
+
+td.firstcol{
+    border-left:none;
+    }
+
+.count_sub0{
+    font-size:9px;
+    color:red;
+    background:#fff;
+}
+.count_sub1{
+    font-size:9px;
+    color:green;
+    background:#fff;
+}
+.count_sub_text{
+    color:#a4a4a4;
+    background:#fff;
+}
+.count_result{
+    font-weight:bold;
+}
+.table_container_wide{
+    overflow:auto;
+    width:98%;
+}
+.container_visits_raw_data{
+    font-size:.9em;
+    overflow:auto;
+    height:150px;
+    width:100%;
+}
+
+.table_container_stats{
+    overflow:auto;
+    width:100%;
+    height:150px;
+}
+.br_clear{
+    clear:both;
+}
+
+a.cystats_sub_referer_link,a.cystats_sub_referer_link:visited{
+    color:#a4a4a4;
+    text-decoration:none;
+    border:none;
+}
+
+#cystats_options_form label{
+    width:450px;
+    display:block;
+    float:left;
+    margin-top:3px;
+    }
+#cystats_options_form input{
+    margin-top:0px;
+    width:100px;
+    }
+#cystats_options_form .sbutton{
+    width:100px;
+}
+#cystats_options_form .check{
+    clear:both;
+}
+
+#cystats_options_form fieldset{
+    border:1px solid #efefef;
+    background:rgb(250,250,255);
+    padding:10px;
+}
+
+#cystats_delete_table_form label{
+    width:450px;
+    display:inline;
+    float:left;
+    margin-top:3px;
+    }
+#cystats_delete_table_form input{
+    margin-top:0px;
+    width:100px;
+    }
+#cystats_delete_table_form .sbutton{
+    width:100px;
+}
+#cystats_delete_table_form .check{
+    clear:both;
+}
+
+#cystats_delete_table_form fieldset{
+    border:1px solid #efefef;
+    background:rgb(250,245,245);
+    padding:10px;
+}
+
+.warning_color{
+    color:red;
+    font-weight:bold;
+}
+.pagetype0,.pagetype1,.pagetype2,.pagetype3,
+.pagetype4,.pagetype5,.pagetype6,.pagetype7,
+.pagetype8,.pagetype9,.pagetype10,.pagetype11,
+.pagetype12,.pagetype13,.pagetype14,.pagetype15,
+.pagetype16{
+    font-family:monospace;
+    background-color:#E4E1E1;
+    color:#a4a4a4;
+    margin:0;
+    padding:1px;
+    width:100%;
+    display:block;
+    text-align:center;
+}
+.pagetype11{
+    color:white;
+    background-color:red;
+}
+.pagetype12{
+    color:#fff;
+    background-color:#F36A19;
+}
+.pagetype16{
+    color:#fff;
+    background-color:green;
+}
+
+/* Sortable tables */
+table.sortable thead {
+	text-align:left;
+    background-color:#eee;
+    color:#6688BB;
+    font-weight: bold;
+    font-family:arial, helvetica, sans-serif;
+    line-height:15px;
+    cursor: default;
+}
+
+.cystats legend, .cystats h3{
+	font-size:1.6em;
+	font-weight:bold;
+	font-family:Times,'Times New Roman',serif;
+}
+.cystats fieldset{
+	font-size:1em;
+}
+.cystats textarea{
+	height:100px;
+	width:60%;
+}
