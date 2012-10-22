@@ -14,13 +14,21 @@
      //alert( $( '#post-one', data ).html() );
      $('#post-one').append($( '#post-one', data ).html());
   });
+   
+    $.get('/test.php', function(data) {
+     alert( $( '#lhid_albums', data ).text() );
+     alert( $( 'div[class="lhcl_body"]', data).html() );
+     $('#album2').append($( '#lhid_albums', data ).text());
+     //$('#album1').append($( '.gphoto-album-cover goog-inline-block', data).html() );
+  });
 
 
  });                                    
  </script>
   </head>
   <body>
-<div id="post-one">
-</div>
+<div id="post-one"></div>
+<div id="album1"></div>
+<div id="album2"></div>
   </body>
 </html>
