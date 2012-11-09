@@ -19,4 +19,53 @@ img, div, h1, h2, h3, h4 {
 <![endif]-->
 <?php wp_head(); ?>
 </head>
-<body>
+  <body>
+    <center>
+      <table id="container" border="0" cellpadding="0" cellspacing="0"
+        width="1043">
+        <tbody>
+          <tr>
+            <td colspan="3" height="135">
+              <table id="up" border="0" cellpadding="0" cellspacing="0"
+                height="135" width="1042">
+                <tbody>
+                  <tr>
+                    <td height="85" width="230"><img
+                        src="http://www.michiganchineseschool.org/images/mcs_titleL.jpg" alt="" height="203"
+                        width="224"></td>
+                    <td height="85" width="663"> <img
+                        src="http://www.michiganchineseschool.org/images/mcs_titleC.jpg" alt="" height="223"
+                        width="644"></td>
+                    <td colspan="2" height="85">
+                      <p>&nbsp; </p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td colspan="4" bgcolor="#a8c1e5" height="10"> <img
+                        src="http://www.michiganchineseschool.org/images/spacer.gif" alt="" height="10"
+                        width="900"></td>
+                  </tr>
+                  <tr>
+                    <td height="24" width="230"> <img
+                        src="http://www.michiganchineseschool.org/images/bg_05.jpg" alt="" height="24"
+                        width="230"></td>
+                    <td height="24" width="663"> <img
+                        src="http://www.michiganchineseschool.org/images/bg_06.gif" alt="" height="24"
+                        width="663"></td>
+                    <td height="24" width="150"><img
+                        src="http://www.michiganchineseschool.org/images/bg_08.jpg" alt="" height="24"
+                        width="150"></td>
+                  </tr>
+                  <tr>
+                    <td colspan="4" height="16"> <img
+                        src="http://www.michiganchineseschool.org/images/spacer.gif" alt="" height="16"
+                        width="900"></td>
+                  </tr>
+                </tbody>
+              </table>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </center>
+   
