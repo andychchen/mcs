@@ -18,6 +18,14 @@ body {
 	margin:0 auto;
 	width:960px;
 }
+#blog-container {
+	margin:0 auto;
+	width:960px;
+}
+#blog-page-container {
+	margin:0 auto;
+	width:820px;
+}
 #site-name {
 	font-size:26px;
 	color:#43433b;

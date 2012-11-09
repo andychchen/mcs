@@ -1,5 +1,5 @@
 <?php get_header(); ?>
-<div id="container">
+<div id="blog-page-container">
 	
 	<? unset($pages); ?> 
     <br clear="all" />

@@ -1,3 +1,15 @@
+<?php
+function get_data($url) {
+  $ch = curl_init();
+  $timeout = 5;
+  curl_setopt($ch, CURLOPT_URL, $url);
+  curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+  curl_setopt($ch, CURLOPT_CONNECTTIMEOUT, $timeout);
+  $data = curl_exec($ch);
+  curl_close($ch);
+  return $data;
+}
+?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" <?php language_attributes(); ?>>
 
@@ -6,7 +18,9 @@
 
 <title><?php bloginfo('name'); ?> <?php if ( is_single() ) { ?> &raquo; Blog Archive <?php } ?> <?php wp_title(); ?></title>
 
+<link rel="stylesheet" href="http://www.michiganchineseschool.org/style.css" type="text/css" media="screen" />
 <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" type="text/css" media="screen" />
+
 <link rel="alternate" type="application/rss+xml" title="<?php bloginfo('name'); ?> RSS Feed" href="<?php bloginfo('rss2_url'); ?>" />
 <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
 
@@ -65,7 +79,10 @@ img, div, h1, h2, h3, h4 {
               </table>
             </td>
           </tr>
-        </tbody>
-      </table>
-    </center>
+  <tr>
+            <td id="left" height="523" valign="top" width="200"><?php echo(get_data('http://www.michiganchineseschool.org/menu.html')); ?>
+              <br>
+            </td>
+            <td colspan="2" id="contents" align="left" height="523"
+              valign="top">
    
