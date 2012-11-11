@@ -23,8 +23,8 @@ body {
 	width:960px;
 }
 #blog-page-container {
-	margin:0 auto;
-	width:820px;
+	margin:0 0 0 50px;
+	width:960px;
 }
 #site-name {
 	font-size:26px;

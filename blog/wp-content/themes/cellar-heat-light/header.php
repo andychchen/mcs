@@ -33,7 +33,8 @@ img, div, h1, h2, h3, h4 {
 <![endif]-->
 <?php wp_head(); ?>
 </head>
-  <body>
+  <body leftmargin="0" topmargin="0" style="background-color: rgb(115,
+    91, 61);" marginheight="0" marginwidth="0">
     <center>
       <table id="container" border="0" cellpadding="0" cellspacing="0"
         width="1043">
