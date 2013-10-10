@@ -230,8 +230,8 @@ $div1 = createElement($dom, 'div', '', NULL);
 
 $div->appendChild($div1);
 
-$urls = array("https://picasaweb.google.com/104083450451262181332",
-              "https://picasaweb.google.com/MichiganChineseSchool");
+$urls = array("https://picasaweb.google.com/104083450451262181332?noredirect=1",
+              "https://picasaweb.google.com/109483094785033508577?noredirect=1");
 
 foreach($urls as $url)
 {
