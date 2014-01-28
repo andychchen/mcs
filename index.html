@@ -20,10 +20,38 @@ body {background-image: none;}
 	font-size: 16px;
 	line-height:16px;
 }
+
+.blink {
+     color: #FFF !important;
+     background: #FC79CE; !important;
+}
 </style>
     <!-- InstanceBeginEditable name="head" --><!-- InstanceEndEditable -->
     <script type="text/javascript" src="jquery-1.8.2.min.js"></script>
     <script type="text/javascript">
+    /**
+* Purpose: blink a page element
+* Preconditions: the element you want to apply the blink to, 
+    the number of times to blink the element (or -1 for infinite times),
+    the speed of the blink
+**/
+function blink(elem, times, speed)
+{
+    if (times > 0 || times < 0) { 
+      if ($(elem).hasClass("blink"))
+         $(elem).removeClass("blink");
+      else
+         $(elem).addClass("blink");
+     }
+
+     clearTimeout(function() { blink(elem, times, speed); });
+
+     if (times > 0 || times < 0) {
+       setTimeout(function() { blink(elem, times, speed); }, speed);
+       times-= .5;
+     }
+}
+
 // we will add our javascript code here
 $(document).ready(function() {
 
@@ -31,6 +59,8 @@ $.get('/blog/', function(data) {
 //alert( $( '#post-one', data ).html() );
 $('#post-one').append($( '#post-one', data ).html());
 });
+
+blink("#specialNote", -1, 1000);
 
 
 });
@@ -92,7 +122,8 @@ $('#post-one').append($( '#post-one', data ).html());
               <p align="center"> <span class="heading">密 西根中文學校</span>
                 Michigan Chinese School</p>
               <div align="center">
-              <embed type="application/x-shockwave-flash" src="https://static.googleusercontent.com/external_content/picasaweb.googleusercontent.com/slideshow.swf" width="600" height="400" flashvars="host=picasaweb.google.com&hl=en_US&feat=flashalbum&RGB=0x000000&feed=https%3A%2F%2Fpicasaweb.google.com%2Fdata%2Ffeed%2Fapi%2Fuser%2F104083450451262181332%2Falbumid%2F5939077460277025601%3Falt%3Drss%26kind%3Dphoto%26hl%3Den_US" pluginspage="http://www.macromedia.com/go/getflashplayer"></embed>
+              <embed type="application/x-shockwave-flash" src="https://static.googleusercontent.com/external_content/picasaweb.googleusercontent.com/slideshow.swf" width="600" height="400" flashvars="host=picasaweb.google.com&hl=en_US&feat=flashalbum&RGB=0x000000&feed=https%3A%2F%2Fpicasaweb.google.com%2Fdata%2Ffeed%2Fapi%2Fuser%2F104083450451262181332%2Falbumid%2F5940204398352704561%3Falt%3Drss%26kind%3Dphoto%26hl%3Den_US" pluginspage="http://www.macromedia.com/go/getflashplayer"></embed>
+              <!--embed type="application/x-shockwave-flash" src="https://static.googleusercontent.com/external_content/picasaweb.googleusercontent.com/slideshow.swf" width="600" height="400" flashvars="host=picasaweb.google.com&hl=en_US&feat=flashalbum&RGB=0x000000&feed=https%3A%2F%2Fpicasaweb.google.com%2Fdata%2Ffeed%2Fapi%2Fuser%2F104083450451262181332%2Falbumid%2F5939077460277025601%3Falt%3Drss%26kind%3Dphoto%26hl%3Den_US" pluginspage="http://www.macromedia.com/go/getflashplayer"></embed-->
               <!--embed type="application/x-shockwave-flash" src="https://static.googleusercontent.com/external_content/picasaweb.googleusercontent.com/slideshow.swf" width="600" height="400" flashvars="host=picasaweb.google.com&hl=en_US&feat=flashalbum&RGB=0x000000&feed=https%3A%2F%2Fpicasaweb.google.com%2Fdata%2Ffeed%2Fapi%2Fuser%2F104083450451262181332%2Falbumid%2F5932087023952738657%3Falt%3Drss%26kind%3Dphoto%26hl%3Den_US" pluginspage="http://www.macromedia.com/go/getflashplayer"></embed-->
               <!--embed type="application/x-shockwave-flash" src="https://static.googleusercontent.com/external_content/picasaweb.googleusercontent.com/slideshow.swf" width="600" height="400" flashvars="host=picasaweb.google.com&hl=en_US&feat=flashalbum&RGB=0x000000&feed=https%3A%2F%2Fpicasaweb.google.com%2Fdata%2Ffeed%2Fapi%2Fuser%2F104083450451262181332%2Falbumid%2F5887345518965445873%3Falt%3Drss%26kind%3Dphoto%26hl%3Den_US" pluginspage="http://www.macromedia.com/go/getflashplayer"></embed-->
               <!--embed type="application/x-shockwave-flash" src="https://picasaweb.google.com/s/c/bin/slideshow.swf" width="600" height="400" flashvars="host=picasaweb.google.com&hl=en_US&feat=flashalbum&RGB=0x000000&feed=https%3A%2F%2Fpicasaweb.google.com%2Fdata%2Ffeed%2Fapi%2Fuser%2F104083450451262181332%2Falbumid%2F5881874049807331169%3Falt%3Drss%26kind%3Dphoto%26hl%3Den_US" pluginspage="http://www.macromedia.com/go/getflashplayer"></embed-->
@@ -106,6 +137,10 @@ $('#post-one').append($( '#post-one', data ).html());
               </div>
               <hr>
               <p><span class="heading">最新訊息 HOT NEWS</span></p>
+              <div id="specialNote">
+              "MCS Chinese New Year Celebration is res on 2/8 at 2PM:
+ The re-schedule is due to the availability of the auditorium and the lion dance arrangement."
+              </div>
               <table border="0" width="587">
                 <tbody>
                   <tr>
@@ -129,8 +164,9 @@ $('#post-one').append($( '#post-one', data ).html());
                   5. 本校為向密西根州政府正式登記的非營利組織，不附屬於任何團體，除教師以外，所有職員均為義務工作人員。</span></p>
               <p><br>
                 <span class="heading">班級現況</span><br>
-                <span class="text">現有中文課幼兒班到高年級班和課外活動班。<br>
-                  <span class="heading">收費情形</span><br>
+                <span class="text">現有中文課幼兒班到高年級班和課外活動班。</span><br>
+                <span class="text">學前班 (pre-kindergarten) 招生中, 歡迎試聽。<br>教師班級網頁:</span> <a href="http://blog.huayuworld.org/tephychin">http://blog.huayuworld.org/tephychin</a><br>
+                  <br><span class="heading">收費情形</span><br>
                   每學生一學期學費170 美元，同一家庭的第三名學生135 美元。</span></p>
                   <p>
                   Michigan Chinese School (MCS) provides support to the education of the Chinese language and culture with a racially non discriminatory policy towards it's students.  The School is an equal opportunity employer with a policy of zero tolerance against discrimination on the basis of race, age, and sexual orientation with respect to admissions, use of facilities, faculty and scholarship.
