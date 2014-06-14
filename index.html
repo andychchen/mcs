@@ -55,10 +55,15 @@ function blink(elem, times, speed)
 // we will add our javascript code here
 $(document).ready(function() {
 
-$.get('/blog/', function(data) {
+//blog simplified post one
+//$.get('/blog/', function(data) {
+
+//blog particular latest post
+$.get('/blog/?p=1282', function(data) {
 //alert( $( '#post-one', data ).html() );
 $('#post-one').append($( '#post-one', data ).html());
 });
+
 
 blink("#specialNote", -1, 1000);
 
@@ -159,20 +164,39 @@ blink("#specialNote", -1, 1000);
                 <span class="text">本校創校目的在傳延中華文化，創立的宗旨為提供在密西根州、大底特律地區的華人及非華人家庭孩子學習中國語言及文化的場所。本校的主要活動除了上課之外，還包括新年慶祝晚會、專題演講、識字比賽及演講比賽等活動。本校亦經常參加社區活動，促進與非華人社區的文化交流和友好關係。</span> </p>
               <p><br>
                 <span class="heading">本校特點</span><br>
-                <span class="text">1. 本校目前借用 Madonna University 的校舍，於每星期六下午1:30-4:30 PM上課三小時，前兩小時為中文課，後一小時為課外活動。 
+                <span class="text">1. 本校 2014-2015 年的上課地點為 Ward Church. 地址為: 40000 Six Mile Rd, Northville, MI 48168. 於每星期六下午1:30-4:30 PM上課三小時，前兩小時為中文課，後一小時為課外活動。  
 <br>
                   2. 本校使用流傳全新版華語, 生活華語以及美洲華語等中文課本為主，輔以課外補充教材。<br>
                   3. 特別開設 CFL (Chinese as Foreign  Language) 班，提供不會講中文的學生及非華人家庭的孩子學習中國語文及文化的機會 。<br>
-                  4. 課外活動，由專業人才授課，開設的課程包括舞獅、Lego Robotics、跆拳道、舞蹈、兒童潛能班、成人太極拳、Chinese Communication Group。<br>
+                  4. 課外活動，由專業人才授課，預計開設的課程包括Lego Robotics、跆拳道、兒童足球、兒童潛能班等。<br>
                   5. 本校為向密西根州政府正式登記的非營利組織，不附屬於任何團體，除教師以外，所有職員均為義務工作人員。</span></p>
               <p><br>
                 <span class="heading">班級現況</span><br>
-                <span class="text">現有中文課幼兒班到高年級班和課外活動班。</span><br>
-                <span class="text">學前班 (pre-kindergarten) 招生中, 歡迎試聽。<br>學前班級網頁:</span> <a style="font-size: 10px;" href="http://blog.huayuworld.org/tephychin">http://blog.huayuworld.org/tephychin</a><br>
-                  <br><span class="heading">收費情形</span><br>
+                <span class="text">現有中文課幼兒班到高年級班和課外活動班。目前開放註冊的班級為:<br>
+                Pre-K (適合年滿四歲的學生); Kindergarten (適合年滿五歲的學生); 1st Grade; 2nd Grade; 3rd Grade; 4th Grade; 5th Grade; 6th Grade, 8th Grade; 和 Senior Grade (9th Grade and above). <br>
+                </span>
+                <span class="text">學前班級網頁:</span> <a style="font-size: 10px;" href="http://blog.huayuworld.org/tephychin">http://blog.huayuworld.org/tephychin</a><br>
+                  <br>
+                  <span class="text">特別開設 CFL (Chinese as Foreign Language) 班，提供不會講中文的學生及非華人家庭的孩子學習中國語文及文化的機會 。<br><br>
+                  We also offer CFL (Chinese as Foreign Language) classes for students whose families do not speak Chinese at home. The current (2014-2015) CFL classes offered are CFL-1 (for 4-7 years old students); CFL-2 (for 8-10 years old students); and CFL-3 (for 11 years old and up students). 
+                  
+                  </span>
+                  
+                  <span class="heading"><br><br>收費情形</span><br>
                   每學生一學期學費170 美元，同一家庭的第三名學生135 美元。</span></p>
+                  
+                  <p><span class="heading"><br>HOW TO Register MCS 2014-2015 Classes during Summer Break:<br></span>
+                  <br><span class="text">1.	Download 2014-2015 registration form from <a href="http://www.michiganchineseschool.org/blog/?page_id=627">HERE</a>.
+<br>2.	Scan and email the completed registration form to: michigan_chinese_school@yahoo.com
+<br>3.	After reviewing the registration form, MCS will assign a class for the prospective student based on the availability and your choice of class. An invoice will also be sent to you by mail. Please pay your invoice on the first day of school. 
+<br>4.	The first day of 2014-2015 class is 9/6/2014.
+
+                  
+                  </span></p>
+                  
+                  
                   <p>
-                  Michigan Chinese School (MCS) provides support to the education of the Chinese language and culture with a racially non discriminatory policy towards it's students.  The School is an equal opportunity employer with a policy of zero tolerance against discrimination on the basis of race, age, and sexual orientation with respect to admissions, use of facilities, faculty and scholarship.
+                  <br>Michigan Chinese School (MCS) provides support to the education of the Chinese language and culture with a racially non discriminatory policy towards it's students.  The School is an equal opportunity employer with a policy of zero tolerance against discrimination on the basis of race, age, and sexual orientation with respect to admissions, use of facilities, faculty and scholarship.
 
 <br><br>MCS is a non-profit organization registered with 501(c)(3) status, with the main objectives of teaching Chinese language, promoting Chinese culture and providing these related services to the general public.
 
