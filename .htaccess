@@ -1,1 +1,6 @@
 AddType text/x-server-parsed-html .shtml .html
+
+Options +FollowSymlinks
+RewriteEngine on
+rewritecond %{http_host} ^michiganchineseschool.com [nc]
+rewriterule ^(.*)$ http://www.michiganchineseschool.com/$1 [r=301,nc]
